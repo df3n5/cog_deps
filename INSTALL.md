@@ -1,0 +1,6 @@
+ - SDL2
+ - openAL
+ - freealut
+ - glew
+ - freetype
+ - libpng
