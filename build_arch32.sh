@@ -33,10 +33,9 @@ build_glew () {
 }
 
 build_openal () {
-    pushd src/OpenAL
-    mkdir build
+    pushd src/openal-soft
     pushd build
-    cmake ../src
+    cmake -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
     make install DESTDIR=$dest_dir
     popd
