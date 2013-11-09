@@ -1,21 +1,30 @@
 #!/bin/bash
 
 #Create directories
-mkdir -p arch32/{include,lib}
-pushd arch32
+PLATFORM="arch32"
+mkdir -p $PLATFORM/{include,lib}
+pushd $PLATFORM
 dest_dir=`pwd`
 popd
 
-#libpng
-#echo "Building libpng..."
-#pushd src/libpng
-#./configure --prefix=$dest_dir
-#make
-#make DESTDIR=$dest_dir install
-#popd
-#echo "Built libpng..."
+build_freealut () {
+    pushd src/freealut
+    ./autogen.sh
+    ./configure --prefix=$dest_dir
+    make
+    make install
+    popd
+}
 
-#SDL2
+build_png () {
+    pushd src/png
+    ./autogen.sh
+    ./configure --prefix=$dest_dir
+    make
+    make install
+    popd
+}
+
 build_sdl () {
     pushd src/SDL2
     ./autogen.sh
@@ -25,4 +34,7 @@ build_sdl () {
     popd
 }
 
-build_sdl
+
+build_freealut
+#build_png
+#build_sdl

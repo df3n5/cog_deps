@@ -2502,3 +2502,4170 @@ configure:16609: $? = 0
 configure:16609: result: yes
 configure:16609: checking for copysign
 configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:108:6: warning: conflicting types for built-in function 'copysign' [enabled by default]
+ char copysign ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for cos
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:109:6: warning: conflicting types for built-in function 'cos' [enabled by default]
+ char cos ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for cosf
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:110:6: warning: conflicting types for built-in function 'cosf' [enabled by default]
+ char cosf ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for fabs
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:111:6: warning: conflicting types for built-in function 'fabs' [enabled by default]
+ char fabs ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for floor
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:112:6: warning: conflicting types for built-in function 'floor' [enabled by default]
+ char floor ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for log
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:113:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ char log ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for pow
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:114:6: warning: conflicting types for built-in function 'pow' [enabled by default]
+ char pow ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for scalbn
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:115:6: warning: conflicting types for built-in function 'scalbn' [enabled by default]
+ char scalbn ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for sin
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:116:6: warning: conflicting types for built-in function 'sin' [enabled by default]
+ char sin ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for sinf
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:117:6: warning: conflicting types for built-in function 'sinf' [enabled by default]
+ char sinf ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16609: checking for sqrt
+configure:16609: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+conftest.c:118:6: warning: conflicting types for built-in function 'sqrt' [enabled by default]
+ char sqrt ();
+      ^
+configure:16609: $? = 0
+configure:16609: result: yes
+configure:16619: checking for iconv_open in -liconv
+configure:16644: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -liconv   -lm >&5
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+configure:16644: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char iconv_open ();
+| int
+| main ()
+| {
+| return iconv_open ();
+|   ;
+|   return 0;
+| }
+configure:16653: result: no
+configure:16661: checking for iconv
+configure:16661: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:16661: $? = 0
+configure:16661: result: yes
+configure:16671: checking for struct sigaction.sa_sigaction
+configure:16671: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:16671: $? = 0
+configure:16671: result: yes
+configure:16690: checking for GCC builtin atomic operations
+configure:16712: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:16712: $? = 0
+configure:16719: result: yes
+configure:16996: checking for GCC -mmmx option
+configure:17027: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -mmmx  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:17027: $? = 0
+configure:17033: result: yes
+configure:17052: checking for GCC -m3dnow option
+configure:17076: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -m3dnow  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:17076: $? = 0
+configure:17083: result: yes
+configure:17102: checking for GCC -msse option
+configure:17133: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -msse  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:17133: $? = 0
+configure:17139: result: yes
+configure:17158: checking for GCC -msse2 option
+configure:17189: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -msse2  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:17189: $? = 0
+configure:17195: result: yes
+configure:17218: checking for Altivec with GCC altivec.h and -maltivec option
+configure:17237: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -maltivec  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+gcc: error: unrecognized command line option '-maltivec'
+configure:17237: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| /* end confdefs.h.  */
+| 
+|         #include <altivec.h>
+|         vector unsigned int vzero() {
+|             return vec_splat_u32(0);
+|         }
+| 
+| int
+| main ()
+| {
+| 
+| 
+|   ;
+|   return 0;
+| }
+configure:17244: result: no
+configure:17248: checking for Altivec with GCC -maltivec option
+configure:17266: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -maltivec  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+gcc: error: unrecognized command line option '-maltivec'
+configure:17266: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| /* end confdefs.h.  */
+| 
+|             vector unsigned int vzero() {
+|                 return vec_splat_u32(0);
+|             }
+| 
+| int
+| main ()
+| {
+| 
+| 
+|   ;
+|   return 0;
+| }
+configure:17272: result: no
+configure:17277: checking for Altivec with GCC altivec.h and -faltivec option
+configure:17298: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -faltivec  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+gcc: error: unrecognized command line option '-faltivec'
+configure:17298: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| /* end confdefs.h.  */
+| 
+|             #include <altivec.h>
+|             vector unsigned int vzero() {
+|                 return vec_splat_u32(0);
+|             }
+| 
+| int
+| main ()
+| {
+| 
+| 
+|   ;
+|   return 0;
+| }
+configure:17305: result: no
+configure:17310: checking for Altivec with GCC -faltivec option
+configure:17328: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -faltivec  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+gcc: error: unrecognized command line option '-faltivec'
+configure:17328: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| /* end confdefs.h.  */
+| 
+|             vector unsigned int vzero() {
+|                 return vec_splat_u32(0);
+|             }
+| 
+| int
+| main ()
+| {
+| 
+| 
+|   ;
+|   return 0;
+| }
+configure:17334: result: no
+configure:18471: checking for GCC -fvisibility=hidden option
+configure:18494: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -fvisibility=hidden -Werror  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:18494: $? = 0
+configure:18500: result: yes
+configure:21416: checking for dlopen
+configure:21435: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:21435: $? = 0
+configure:21441: result: yes
+configure:21445: checking for dlopen in -lc
+configure:21470: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -lc   -lm >&5
+/tmp/ccG268Fv.o: In function `main':
+/home/jmf/projects/gamedev/cog_deps/src/SDL2/conftest.c:114: undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+configure:21470: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char dlopen ();
+| int
+| main ()
+| {
+| return dlopen ();
+|   ;
+|   return 0;
+| }
+configure:21479: result: no
+configure:21484: checking for dlopen in -ldl
+configure:21509: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -ldl   -lm >&5
+configure:21509: $? = 0
+configure:21518: result: yes
+configure:17375: checking for OSS audio support
+configure:17394: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:17394: $? = 0
+configure:17427: result: yes
+configure:17486: checking for ALSA CFLAGS
+configure:17492: result: 
+configure:17495: checking for ALSA LDFLAGS
+configure:17508: result:  -lasound -lm -ldl -lpthread
+configure:17512: checking for libasound headers version >= 0.9.0
+configure:17574: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:17574: $? = 0
+configure:17575: result: found.
+configure:17593: checking for snd_ctl_open in -lasound
+configure:17618: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -lasound   -lasound -lm -ldl -lpthread  >&5
+configure:17618: $? = 0
+configure:17627: result: yes
+configure:18001: checking for pkg-config
+configure:18019: found /usr/bin/pkg-config
+configure:18032: result: /usr/bin/pkg-config
+configure:18040: checking for PulseAudio 0.9 support
+configure:18049: result: yes
+configure:18108: checking for artsc-config
+configure:18141: result: no
+configure:17751: checking for esd-config
+configure:17769: found /usr/bin/esd-config
+configure:17782: result: /usr/bin/esd-config
+configure:17791: checking for ESD - version >= 0.2.8
+configure:17873: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm -lesd  >&5
+/usr/bin/ld: warning: libaudiofile.so.0, needed by /usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so, not found (try using -rpath or -rpath-link)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetTrackBytes'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afCloseFile'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetChannels'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetSampleFormat'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetCompression'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetRate'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afReadFrames'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afOpenFile'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetFrameCount'
+collect2: error: ld returned 1 exit status
+configure:17873: $? = 1
+configure: program exited with status 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| 
+| #include <stdio.h>
+| #include <stdlib.h>
+| #include <string.h>
+| #include <esd.h>
+| 
+| char*
+| my_strdup (char *str)
+| {
+|   char *new_str;
+| 
+|   if (str)
+|     {
+|       new_str = malloc ((strlen (str) + 1) * sizeof(char));
+|       strcpy (new_str, str);
+|     }
+|   else
+|     new_str = NULL;
+| 
+|   return new_str;
+| }
+| 
+| int main ()
+| {
+|   int major, minor, micro;
+|   char *tmp_version;
+| 
+|   system ("touch conf.esdtest");
+| 
+|   /* HP/UX 9 (%@#!) writes to sscanf strings */
+|   tmp_version = my_strdup("0.2.8");
+|   if (sscanf(tmp_version, "%d.%d.%d", &major, &minor, &micro) != 3) {
+|      printf("%s, bad version string\n", "0.2.8");
+|      exit(1);
+|    }
+| 
+|    if ((0 > major) ||
+|       ((0 == major) && (2 > minor)) ||
+|       ((0 == major) && (2 == minor) && (41 >= micro)))
+|     {
+|       return 0;
+|     }
+|   else
+|     {
+|       printf("\n*** 'esd-config --version' returned %d.%d.%d, but the minimum version\n", 0, 2, 41);
+|       printf("*** of ESD required is %d.%d.%d. If esd-config is correct, then it is\n", major, minor, micro);
+|       printf("*** best to upgrade to the required version.\n");
+|       printf("*** If esd-config was wrong, set the environment variable ESD_CONFIG\n");
+|       printf("*** to point to the correct copy of esd-config, and remove the file\n");
+|       printf("*** config.cache before re-running configure\n");
+|       return 1;
+|     }
+| }
+| 
+| 
+configure:17891: result: no
+configure:17919: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm -lesd  >&5
+/usr/bin/ld: warning: libaudiofile.so.0, needed by /usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so, not found (try using -rpath or -rpath-link)
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetTrackBytes'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afCloseFile'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetChannels'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetSampleFormat'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetCompression'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetRate'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afReadFrames'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afOpenFile'
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib/libesd.so: undefined reference to `afGetFrameCount'
+collect2: error: ld returned 1 exit status
+configure:17919: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| 
+| #include <stdio.h>
+| #include <esd.h>
+| 
+| int
+| main ()
+| {
+|  return 0;
+|   ;
+|   return 0;
+| }
+configure:18227: checking audio/audiolib.h usability
+configure:18227: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:143:28: fatal error: audio/audiolib.h: No such file or directory
+ #include <audio/audiolib.h>
+                            ^
+compilation terminated.
+configure:18227: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <audio/audiolib.h>
+configure:18227: result: no
+configure:18227: checking audio/audiolib.h presence
+configure:18227: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+conftest.c:110:28: fatal error: audio/audiolib.h: No such file or directory
+ #include <audio/audiolib.h>
+                            ^
+compilation terminated.
+configure:18227: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| #include <audio/audiolib.h>
+configure:18227: result: no
+configure:18227: checking for audio/audiolib.h
+configure:18227: result: no
+configure:18233: checking for AuOpenServer in -laudio
+configure:18258: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -laudio   -lm >&5
+/usr/bin/ld: cannot find -laudio
+collect2: error: ld returned 1 exit status
+configure:18258: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char AuOpenServer ();
+| int
+| main ()
+| {
+| return AuOpenServer ();
+|   ;
+|   return 0;
+| }
+configure:18267: result: no
+configure:18274: checking for NAS audio support
+configure:18289: result: no
+configure:18339: checking sndio.h usability
+configure:18339: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:143:19: fatal error: sndio.h: No such file or directory
+ #include <sndio.h>
+                   ^
+compilation terminated.
+configure:18339: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <sndio.h>
+configure:18339: result: no
+configure:18339: checking sndio.h presence
+configure:18339: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+conftest.c:110:19: fatal error: sndio.h: No such file or directory
+ #include <sndio.h>
+                   ^
+compilation terminated.
+configure:18339: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| #include <sndio.h>
+configure:18339: result: no
+configure:18339: checking for sndio.h
+configure:18339: result: no
+configure:18345: checking for sio_open in -lsndio
+configure:18370: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -lsndio   -lm >&5
+/usr/bin/ld: cannot find -lsndio
+collect2: error: ld returned 1 exit status
+configure:18370: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char sio_open ();
+| int
+| main ()
+| {
+| return sio_open ();
+|   ;
+|   return 0;
+| }
+configure:18379: result: no
+configure:18386: checking for sndio audio support
+configure:18395: result: no
+configure:18623: checking for X
+configure:18731: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+configure:18731: $? = 0
+configure:18762: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -lX11  -lm >&5
+configure:18762: $? = 0
+configure:18812: result: libraries , headers 
+configure:18911: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm  -lX11 >&5
+configure:18911: $? = 0
+configure:19009: checking for gethostbyname
+configure:19009: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:19009: $? = 0
+configure:19009: result: yes
+configure:19106: checking for connect
+configure:19106: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:19106: $? = 0
+configure:19106: result: yes
+configure:19155: checking for remove
+configure:19155: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:19155: $? = 0
+configure:19155: result: yes
+configure:19204: checking for shmat
+configure:19204: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c  -lm >&5
+configure:19204: $? = 0
+configure:19204: result: yes
+configure:19262: checking for IceConnectionNumber in -lICE
+configure:19287: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    conftest.c -lICE   -lm >&5
+configure:19287: $? = 0
+configure:19296: result: yes
+configure:19363: checking for X11/extensions/Xext.h
+configure:19363: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19363: $? = 0
+configure:19363: result: yes
+configure:19425: checking for const parameter to XextAddDisplay
+configure:19446: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19446: $? = 0
+configure:19454: result: yes
+configure:19457: checking for const parameter to _XData32
+configure:19475: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19475: $? = 0
+configure:19483: result: yes
+configure:19486: checking for XGenericEvent
+configure:19509: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19509: $? = 0
+configure:19517: result: yes
+configure:19520: checking for XkbKeycodeToKeysym in -lX11
+configure:19545: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c -lX11   -lm >&5
+configure:19545: $? = 0
+configure:19554: result: yes
+configure:19572: checking for X11/Xcursor/Xcursor.h
+configure:19572: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19572: $? = 0
+configure:19572: result: yes
+configure:19653: checking for X11/extensions/Xinerama.h
+configure:19653: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19653: $? = 0
+configure:19653: result: yes
+configure:19734: checking for X11/extensions/XInput2.h
+configure:19734: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19734: $? = 0
+configure:19734: result: yes
+configure:19805: checking for xinput2 multitouch
+configure:19831: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19831: $? = 0
+configure:19839: result: yes
+configure:19851: checking for X11/extensions/Xrandr.h
+configure:19851: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19851: $? = 0
+configure:19851: result: yes
+configure:19931: checking for X11/extensions/scrnsaver.h
+configure:19931: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:19931: $? = 0
+configure:19931: result: yes
+configure:20011: checking for X11/extensions/shape.h
+configure:20011: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20011: $? = 0
+configure:20011: result: yes
+configure:20036: checking for X11/extensions/xf86vmode.h
+configure:20036: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20036: $? = 0
+configure:20036: result: yes
+configure:20499: checking for OpenGL (GLX) support
+configure:20517: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20517: $? = 0
+configure:20523: result: yes
+configure:20550: checking for OpenGL ES (EGL) support
+configure:20567: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20567: $? = 0
+configure:20573: result: yes
+configure:20576: checking for OpenGL ES v1 headers
+configure:20594: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20594: $? = 0
+configure:20600: result: yes
+configure:20610: checking for OpenGL ES v2 headers
+configure:20628: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20628: $? = 0
+configure:20634: result: yes
+configure:20747: checking libudev.h usability
+configure:20747: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20747: $? = 0
+configure:20747: result: yes
+configure:20747: checking libudev.h presence
+configure:20747: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+configure:20747: $? = 0
+configure:20747: result: yes
+configure:20747: checking for libudev.h
+configure:20747: result: yes
+configure:20775: checking for pkg-config
+configure:20806: result: /usr/bin/pkg-config
+configure:20818: checking dbus/dbus.h usability
+configure:20818: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include   -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20818: $? = 0
+configure:20818: result: yes
+configure:20818: checking dbus/dbus.h presence
+configure:20818: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+conftest.c:139:23: fatal error: dbus/dbus.h: No such file or directory
+ #include <dbus/dbus.h>
+                       ^
+compilation terminated.
+configure:20818: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| /* end confdefs.h.  */
+| #include <dbus/dbus.h>
+configure:20818: result: no
+configure:20818: WARNING: dbus/dbus.h: accepted by the compiler, rejected by the preprocessor!
+configure:20818: WARNING: dbus/dbus.h: proceeding with the compiler's result
+configure:20818: checking for dbus/dbus.h
+configure:20818: result: yes
+configure:20702: checking for Linux 2.4 unified input interface
+configure:20722: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:20722: $? = 0
+configure:20728: result: yes
+configure:20847: checking for Touchscreen library support
+configure:20864: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:142:29: fatal error: tslib.h: No such file or directory
+           #include "tslib.h"
+                             ^
+compilation terminated.
+configure:20864: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| 
+|           #include "tslib.h"
+| 
+| int
+| main ()
+| {
+| 
+| 
+|   ;
+|   return 0;
+| }
+configure:20870: result: no
+configure:21579: checking for hid_init in -lusbhid
+configure:21604: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c -lusbhid   -lm >&5
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+configure:21604: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char hid_init ();
+| int
+| main ()
+| {
+| return hid_init ();
+|   ;
+|   return 0;
+| }
+configure:21613: result: no
+configure:21634: checking usb.h usability
+configure:21634: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:21634: $? = 0
+configure:21634: result: yes
+configure:21634: checking usb.h presence
+configure:21634: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+configure:21634: $? = 0
+configure:21634: result: yes
+configure:21634: checking for usb.h
+configure:21634: result: yes
+configure:21640: checking libusb.h usability
+configure:21640: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:174:20: fatal error: libusb.h: No such file or directory
+ #include <libusb.h>
+                    ^
+compilation terminated.
+configure:21640: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <libusb.h>
+configure:21640: result: no
+configure:21640: checking libusb.h presence
+configure:21640: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+conftest.c:141:20: fatal error: libusb.h: No such file or directory
+ #include <libusb.h>
+                    ^
+compilation terminated.
+configure:21640: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| #include <libusb.h>
+configure:21640: result: no
+configure:21640: checking for libusb.h
+configure:21640: result: no
+configure:21646: checking for hid_init in -lusb
+configure:21671: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c -lusb   -lm >&5
+/tmp/ccluR83C.o: In function `main':
+/home/jmf/projects/gamedev/cog_deps/src/SDL2/conftest.c:152: undefined reference to `hid_init'
+collect2: error: ld returned 1 exit status
+configure:21671: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char hid_init ();
+| int
+| main ()
+| {
+| return hid_init ();
+|   ;
+|   return 0;
+| }
+configure:21680: result: no
+configure:21691: checking for usbhid
+configure:21728: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -DHAVE_USB_H  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:150:36: fatal error: dev/usb/usb.h: No such file or directory
+           # include <dev/usb/usb.h>
+                                    ^
+compilation terminated.
+configure:21728: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| /* end confdefs.h.  */
+| 
+|           #include <sys/types.h>
+|           #if defined(HAVE_USB_H)
+|           #include <usb.h>
+|           #endif
+|           #ifdef __DragonFly__
+|           # include <bus/usb/usb.h>
+|           # include <bus/usb/usbhid.h>
+|           #else
+|           # include <dev/usb/usb.h>
+|           # include <dev/usb/usbhid.h>
+|           #endif
+|           #if defined(HAVE_USBHID_H)
+|           #include <usbhid.h>
+|           #elif defined(HAVE_LIBUSB_H)
+|           #include <libusb.h>
+|           #elif defined(HAVE_LIBUSBHID_H)
+|           #include <libusbhid.h>
+|           #endif
+| 
+| int
+| main ()
+| {
+| 
+|           struct report_desc *repdesc;
+|           struct usb_ctl_report *repbuf;
+|           hid_kind_t hidkind;
+| 
+|   ;
+|   return 0;
+| }
+configure:21734: result: no
+configure:20961: checking for pthreads
+configure:20980: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c  -lm -lpthread >&5
+configure:20980: $? = 0
+configure:20987: result: yes
+configure:21008: checking for recursive mutexes
+configure:21028: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:21028: $? = 0
+configure:21065: result: yes
+configure:21070: checking for pthread semaphores
+configure:21088: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:21088: $? = 0
+configure:21094: result: yes
+configure:21098: checking for sem_timedwait
+configure:21117: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c  -lm -lpthread >&5
+configure:21117: $? = 0
+configure:21126: result: yes
+configure:21130: checking for pthread_spin_trylock
+configure:21150: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c  -lm -lpthread >&5
+configure:21150: $? = 0
+configure:21164: result: yes
+configure:21167: checking for pthread_np.h
+configure:21167: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+conftest.c:147:24: fatal error: pthread_np.h: No such file or directory
+ #include <pthread_np.h>
+                        ^
+compilation terminated.
+configure:21167: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| #define SDL_THREAD_PTHREAD 1
+| #define SDL_THREAD_PTHREAD_RECURSIVE_MUTEX 1
+| #define HAVE_SEM_TIMEDWAIT 1
+| #define HAVE_PTHREAD_SPINLOCK 1
+| /* end confdefs.h.  */
+|  #include <pthread.h>
+| 
+| #include <pthread_np.h>
+configure:21167: result: no
+configure:21183: checking for pthread_setname_np
+configure:21203: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c  -lm -lpthread >&5
+configure:21203: $? = 0
+configure:21217: result: yes
+configure:21220: checking for pthread_set_name_np
+configure:21240: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -D_REENTRANT  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c  -lm -lpthread >&5
+/tmp/ccWzIPm7.o: In function `main':
+/home/jmf/projects/gamedev/cog_deps/src/SDL2/conftest.c:157: undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+configure:21240: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME ""
+| #define PACKAGE_TARNAME ""
+| #define PACKAGE_VERSION ""
+| #define PACKAGE_STRING ""
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define HAVE_LIBC 1
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDARG_H 1
+| #define HAVE_MALLOC_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_MATH_H 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_SIGNAL_H 1
+| #define HAVE_M_PI /**/
+| #define HAVE_ALLOCA_H 1
+| #define HAVE_ALLOCA 1
+| #define HAVE_MEMCMP 1
+| #define HAVE_STRTOD 1
+| #define HAVE_MPROTECT 1
+| #define HAVE_MALLOC 1
+| #define HAVE_CALLOC 1
+| #define HAVE_REALLOC 1
+| #define HAVE_FREE 1
+| #define HAVE_GETENV 1
+| #define HAVE_SETENV 1
+| #define HAVE_PUTENV 1
+| #define HAVE_UNSETENV 1
+| #define HAVE_QSORT 1
+| #define HAVE_ABS 1
+| #define HAVE_BCOPY 1
+| #define HAVE_MEMSET 1
+| #define HAVE_MEMCPY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_STRLEN 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_STRTOLL 1
+| #define HAVE_STRTOULL 1
+| #define HAVE_ATOI 1
+| #define HAVE_ATOF 1
+| #define HAVE_STRCMP 1
+| #define HAVE_STRNCMP 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_SSCANF 1
+| #define HAVE_SNPRINTF 1
+| #define HAVE_VSNPRINTF 1
+| #define HAVE_FSEEKO 1
+| #define HAVE_FSEEKO64 1
+| #define HAVE_SIGACTION 1
+| #define HAVE_SETJMP 1
+| #define HAVE_NANOSLEEP 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_ATAN 1
+| #define HAVE_ATAN2 1
+| #define HAVE_CEIL 1
+| #define HAVE_COPYSIGN 1
+| #define HAVE_COS 1
+| #define HAVE_COSF 1
+| #define HAVE_FABS 1
+| #define HAVE_FLOOR 1
+| #define HAVE_LOG 1
+| #define HAVE_POW 1
+| #define HAVE_SCALBN 1
+| #define HAVE_SIN 1
+| #define HAVE_SINF 1
+| #define HAVE_SQRT 1
+| #define HAVE_ICONV 1
+| #define HAVE_SA_SIGACTION 1
+| #define HAVE_GCC_ATOMICS 1
+| #define SDL_ASSEMBLY_ROUTINES 1
+| #define SDL_VIDEO_DRIVER_DUMMY 1
+| #define SDL_AUDIO_DRIVER_DISK 1
+| #define SDL_AUDIO_DRIVER_DUMMY 1
+| #define SDL_LOADSO_DLOPEN 1
+| #define SDL_AUDIO_DRIVER_OSS 1
+| #define HAVE_LIBASOUND 1
+| #define SDL_AUDIO_DRIVER_ALSA 1
+| #define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+| #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+| #define SDL_VIDEO_DRIVER_X11 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+| #define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+| #define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+| #define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+| #define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+| #define SDL_VIDEO_DRIVER_X11_XRANDR 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+| #define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+| #define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+| #define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+| #define SDL_VIDEO_OPENGL 1
+| #define SDL_VIDEO_OPENGL_GLX 1
+| #define SDL_VIDEO_RENDER_OGL 1
+| #define SDL_VIDEO_OPENGL_ES 1
+| #define SDL_VIDEO_RENDER_OGL_ES 1
+| #define SDL_VIDEO_OPENGL_ES2 1
+| #define SDL_VIDEO_RENDER_OGL_ES2 1
+| #define HAVE_LIBUDEV_H 1
+| #define HAVE_DBUS_DBUS_H 1
+| #define SDL_INPUT_LINUXEV 1
+| #define SDL_THREAD_PTHREAD 1
+| #define SDL_THREAD_PTHREAD_RECURSIVE_MUTEX 1
+| #define HAVE_SEM_TIMEDWAIT 1
+| #define HAVE_PTHREAD_SPINLOCK 1
+| #define HAVE_PTHREAD_SETNAME_NP 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char pthread_set_name_np ();
+| int
+| main ()
+| {
+| return pthread_set_name_np ();
+|   ;
+|   return 0;
+| }
+configure:21254: result: no
+configure:21888: checking for clock_gettime in -lrt
+configure:21913: gcc -o conftest -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include     conftest.c -lrt   -lm >&5
+configure:21913: $? = 0
+configure:21922: result: yes
+configure:21986: checking linux/version.h usability
+configure:21986: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include    -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:21986: $? = 0
+configure:21986: result: yes
+configure:21986: checking linux/version.h presence
+configure:21986: gcc -E  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c
+configure:21986: $? = 0
+configure:21986: result: yes
+configure:21986: checking for linux/version.h
+configure:21986: result: yes
+configure:18549: checking for GCC -Wall option
+configure:18569: gcc -c -g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include   -Wall  -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  conftest.c >&5
+configure:18569: $? = 0
+configure:18575: result: yes
+configure:18582: checking for necessary GCC -Wno-multichar option
+configure:18590: result: no
+configure:22761: creating ./config.status
+
+## ---------------------- ##
+## Running config.status. ##
+## ---------------------- ##
+
+This file was extended by config.status, which was
+generated by GNU Autoconf 2.69.  Invocation command line was
+
+  CONFIG_FILES    = 
+  CONFIG_HEADERS  = 
+  CONFIG_LINKS    = 
+  CONFIG_COMMANDS = 
+  $ ./config.status 
+
+on localhost
+
+config.status:1306: creating Makefile
+config.status:1306: creating sdl2-config
+config.status:1306: creating SDL2.spec
+config.status:1306: creating sdl2.pc
+config.status:1306: creating include/SDL_config.h
+config.status:1466: include/SDL_config.h is unchanged
+config.status:1480: executing libtool commands
+
+## ---------------- ##
+## Cache variables. ##
+## ---------------- ##
+
+ac_cv_build=x86_64-unknown-linux-gnu
+ac_cv_c_compiler_gnu=yes
+ac_cv_c_const=yes
+ac_cv_c_inline=inline
+ac_cv_c_volatile=yes
+ac_cv_cxx_compiler_gnu=yes
+ac_cv_define_M_PI=yes
+ac_cv_env_CCC_set=
+ac_cv_env_CCC_value=
+ac_cv_env_CC_set=
+ac_cv_env_CC_value=
+ac_cv_env_CFLAGS_set=
+ac_cv_env_CFLAGS_value=
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
+ac_cv_env_CXXFLAGS_set=
+ac_cv_env_CXXFLAGS_value=
+ac_cv_env_CXX_set=
+ac_cv_env_CXX_value=
+ac_cv_env_LDFLAGS_set=
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_XMKMF_set=
+ac_cv_env_XMKMF_value=
+ac_cv_env_build_alias_set=
+ac_cv_env_build_alias_value=
+ac_cv_env_host_alias_set=
+ac_cv_env_host_alias_value=
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_func__i64toa=no
+ac_cv_func__ltoa=no
+ac_cv_func__stricmp=no
+ac_cv_func__strlwr=no
+ac_cv_func__strnicmp=no
+ac_cv_func__strrev=no
+ac_cv_func__strupr=no
+ac_cv_func__ui64toa=no
+ac_cv_func__uitoa=no
+ac_cv_func__ultoa=no
+ac_cv_func_abs=yes
+ac_cv_func_alloca_works=yes
+ac_cv_func_atan2=yes
+ac_cv_func_atan=yes
+ac_cv_func_atof=yes
+ac_cv_func_atoi=yes
+ac_cv_func_bcopy=yes
+ac_cv_func_calloc=yes
+ac_cv_func_ceil=yes
+ac_cv_func_connect=yes
+ac_cv_func_copysign=yes
+ac_cv_func_cos=yes
+ac_cv_func_cosf=yes
+ac_cv_func_fabs=yes
+ac_cv_func_floor=yes
+ac_cv_func_free=yes
+ac_cv_func_fseeko64=yes
+ac_cv_func_fseeko=yes
+ac_cv_func_getenv=yes
+ac_cv_func_gethostbyname=yes
+ac_cv_func_iconv=yes
+ac_cv_func_itoa=no
+ac_cv_func_log=yes
+ac_cv_func_malloc=yes
+ac_cv_func_memcmp_working=yes
+ac_cv_func_memcpy=yes
+ac_cv_func_memmove=yes
+ac_cv_func_memset=yes
+ac_cv_func_mprotect=yes
+ac_cv_func_nanosleep=yes
+ac_cv_func_pow=yes
+ac_cv_func_putenv=yes
+ac_cv_func_qsort=yes
+ac_cv_func_realloc=yes
+ac_cv_func_remove=yes
+ac_cv_func_scalbn=yes
+ac_cv_func_setenv=yes
+ac_cv_func_setjmp=yes
+ac_cv_func_shmat=yes
+ac_cv_func_sigaction=yes
+ac_cv_func_sin=yes
+ac_cv_func_sinf=yes
+ac_cv_func_snprintf=yes
+ac_cv_func_sqrt=yes
+ac_cv_func_sscanf=yes
+ac_cv_func_strcasecmp=yes
+ac_cv_func_strchr=yes
+ac_cv_func_strcmp=yes
+ac_cv_func_strdup=yes
+ac_cv_func_strlcat=no
+ac_cv_func_strlcpy=no
+ac_cv_func_strlen=yes
+ac_cv_func_strncasecmp=yes
+ac_cv_func_strncmp=yes
+ac_cv_func_strrchr=yes
+ac_cv_func_strstr=yes
+ac_cv_func_strtod=yes
+ac_cv_func_strtol=yes
+ac_cv_func_strtoll=yes
+ac_cv_func_strtoul=yes
+ac_cv_func_strtoull=yes
+ac_cv_func_sysconf=yes
+ac_cv_func_sysctlbyname=no
+ac_cv_func_unsetenv=yes
+ac_cv_func_vsnprintf=yes
+ac_cv_have_x='have_x=yes	ac_x_includes='\'''\''	ac_x_libraries='\'''\'''
+ac_cv_header_X11_Xcursor_Xcursor_h=yes
+ac_cv_header_X11_extensions_XInput2_h=yes
+ac_cv_header_X11_extensions_Xext_h=yes
+ac_cv_header_X11_extensions_Xinerama_h=yes
+ac_cv_header_X11_extensions_Xrandr_h=yes
+ac_cv_header_X11_extensions_scrnsaver_h=yes
+ac_cv_header_X11_extensions_shape_h=yes
+ac_cv_header_X11_extensions_xf86vmode_h=yes
+ac_cv_header_audio_audiolib_h=no
+ac_cv_header_ctype_h=yes
+ac_cv_header_dbus_dbus_h=yes
+ac_cv_header_dlfcn_h=yes
+ac_cv_header_iconv_h=yes
+ac_cv_header_inttypes_h=yes
+ac_cv_header_libudev_h=yes
+ac_cv_header_libusb_h=no
+ac_cv_header_linux_version_h=yes
+ac_cv_header_malloc_h=yes
+ac_cv_header_math_h=yes
+ac_cv_header_memory_h=yes
+ac_cv_header_pthread_np_h=no
+ac_cv_header_signal_h=yes
+ac_cv_header_sndio_h=no
+ac_cv_header_stdarg_h=yes
+ac_cv_header_stdc=yes
+ac_cv_header_stddef_h=yes
+ac_cv_header_stdint_h=yes
+ac_cv_header_stdio_h=yes
+ac_cv_header_stdlib_h=yes
+ac_cv_header_string_h=yes
+ac_cv_header_strings_h=yes
+ac_cv_header_sys_stat_h=yes
+ac_cv_header_sys_types_h=yes
+ac_cv_header_unistd_h=yes
+ac_cv_header_usb_h=yes
+ac_cv_host=x86_64-unknown-linux-gnu
+ac_cv_lib_ICE_IceConnectionNumber=yes
+ac_cv_lib_X11_XkbKeycodeToKeysym=yes
+ac_cv_lib_asound_snd_ctl_open=yes
+ac_cv_lib_audio_AuOpenServer=no
+ac_cv_lib_c_dlopen=no
+ac_cv_lib_dl_dlopen=yes
+ac_cv_lib_iconv_iconv_open=no
+ac_cv_lib_m_pow=yes
+ac_cv_lib_rt_clock_gettime=yes
+ac_cv_lib_sndio_sio_open=no
+ac_cv_lib_usb_hid_init=no
+ac_cv_lib_usbhid_hid_init=no
+ac_cv_member_struct_sigaction_sa_sigaction=yes
+ac_cv_objext=o
+ac_cv_path_EGREP='/usr/bin/grep -E'
+ac_cv_path_ESD_CONFIG=/usr/bin/esd-config
+ac_cv_path_FGREP='/usr/bin/grep -F'
+ac_cv_path_GREP=/usr/bin/grep
+ac_cv_path_PKG_CONFIG=/usr/bin/pkg-config
+ac_cv_path_SED=/usr/bin/sed
+ac_cv_path_install='/usr/bin/install -c'
+ac_cv_prog_AWK=gawk
+ac_cv_prog_CPP='gcc -E'
+ac_cv_prog_CXXCPP='g++ -E'
+ac_cv_prog_ac_ct_AR=ar
+ac_cv_prog_ac_ct_CC=gcc
+ac_cv_prog_ac_ct_CXX=g++
+ac_cv_prog_ac_ct_OBJDUMP=objdump
+ac_cv_prog_ac_ct_RANLIB=ranlib
+ac_cv_prog_ac_ct_STRIP=strip
+ac_cv_prog_cc_c89=
+ac_cv_prog_cc_g=yes
+ac_cv_prog_cxx_g=yes
+ac_cv_prog_make_make_set=yes
+ac_cv_type_size_t=yes
+ac_cv_working_alloca_h=yes
+lt_cv_ar_at_file=@
+lt_cv_archive_cmds_need_lc=no
+lt_cv_deplibs_check_method=pass_all
+lt_cv_file_magic_cmd='$MAGIC_CMD'
+lt_cv_file_magic_test_file=
+lt_cv_ld_reload_flag=-r
+lt_cv_nm_interface='BSD nm'
+lt_cv_objdir=.libs
+lt_cv_path_LD=/usr/bin/ld
+lt_cv_path_LDCXX='/usr/bin/ld -m elf_x86_64'
+lt_cv_path_NM='/usr/bin/nm -B'
+lt_cv_path_mainfest_tool=no
+lt_cv_prog_compiler_c_o=yes
+lt_cv_prog_compiler_c_o_CXX=yes
+lt_cv_prog_compiler_pic='-fPIC -DPIC'
+lt_cv_prog_compiler_pic_CXX='-fPIC -DPIC'
+lt_cv_prog_compiler_pic_works=yes
+lt_cv_prog_compiler_pic_works_CXX=yes
+lt_cv_prog_compiler_rtti_exceptions=no
+lt_cv_prog_compiler_static_works=yes
+lt_cv_prog_compiler_static_works_CXX=yes
+lt_cv_prog_gnu_ld=yes
+lt_cv_prog_gnu_ldcxx=yes
+lt_cv_sharedlib_from_linklib_cmd='printf %s\n'
+lt_cv_shlibpath_overrides_runpath=no
+lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | sed '\''/ __gnu_lto/d'\'''
+lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"\2", (void *) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \(lib[^ ]*\)$/  {"\2", (void *) \&\2},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"lib\2", (void *) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''
+lt_cv_sys_max_cmd_len=1572864
+lt_cv_to_host_file_cmd=func_convert_file_noop
+lt_cv_to_tool_file_cmd=func_convert_file_noop
+
+## ----------------- ##
+## Output variables. ##
+## ----------------- ##
+
+ALLOCA=''
+ALSA_CFLAGS=''
+ALSA_LIBS=' -lasound -lm -ldl -lpthread'
+AR='ar'
+ARTSCONFIG=''
+AS='as'
+AWK='gawk'
+BUILD_CFLAGS='-g -O3 -DUSING_GENERATED_CONFIG_H'
+BUILD_LDFLAGS=''
+CC='gcc'
+CFLAGS='-g -O2 -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  '
+CPP='gcc -E'
+CPPFLAGS=' -Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include '
+CXX='g++'
+CXXCPP='g++ -E'
+CXXFLAGS='-g -O2'
+DEFS='-DHAVE_CONFIG_H'
+DIRECTFBCONFIG=''
+DLLTOOL='false'
+DSYMUTIL=''
+DUMPBIN=''
+ECHO_C=''
+ECHO_N='-n'
+ECHO_T=''
+EGREP='/usr/bin/grep -E'
+ENABLE_SHARED_FALSE='#'
+ENABLE_SHARED_TRUE=''
+ENABLE_STATIC_FALSE='#'
+ENABLE_STATIC_TRUE=''
+ESD_CFLAGS=''
+ESD_CONFIG='/usr/bin/esd-config'
+ESD_LIBS=''
+EXEEXT=''
+EXTRA_CFLAGS='-Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include  -mmmx -m3dnow -msse -msse2 -fvisibility=hidden  -D_REENTRANT   -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include  -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall'
+EXTRA_LDFLAGS=' -lm -ldl -lpthread -lrt'
+FGREP='/usr/bin/grep -F'
+GREP='/usr/bin/grep'
+INCLUDE='-Iinclude -I/home/jmf/projects/gamedev/cog_deps/src/SDL2/include'
+INSTALL_DATA='${INSTALL} -m 644'
+INSTALL_PROGRAM='${INSTALL}'
+INSTALL_SCRIPT='${INSTALL}'
+LD='/usr/bin/ld -m elf_x86_64'
+LDFLAGS='  '
+LIBOBJS=''
+LIBS=' -lm'
+LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIPO=''
+LN_S='ln -s'
+LTLIBOBJS=''
+LT_AGE='0'
+LT_CURRENT='0'
+LT_RELEASE='2.0'
+LT_REVISION='0'
+MANIFEST_TOOL=':'
+NM='/usr/bin/nm -B'
+NMEDIT=''
+OBJDUMP='objdump'
+OBJECTS='$(objects)/SDL.lo $(objects)/SDL_assert.lo $(objects)/SDL_error.lo $(objects)/SDL_hints.lo $(objects)/SDL_log.lo $(objects)/SDL_atomic.lo $(objects)/SDL_spinlock.lo $(objects)/SDL_audio.lo $(objects)/SDL_audiocvt.lo $(objects)/SDL_audiodev.lo $(objects)/SDL_audiotypecvt.lo $(objects)/SDL_mixer.lo $(objects)/SDL_wave.lo $(objects)/SDL_cpuinfo.lo $(objects)/SDL_clipboardevents.lo $(objects)/SDL_dropevents.lo $(objects)/SDL_events.lo $(objects)/SDL_gesture.lo $(objects)/SDL_keyboard.lo $(objects)/SDL_mouse.lo $(objects)/SDL_quit.lo $(objects)/SDL_touch.lo $(objects)/SDL_windowevents.lo $(objects)/SDL_rwops.lo $(objects)/SDL_haptic.lo $(objects)/SDL_gamecontroller.lo $(objects)/SDL_joystick.lo $(objects)/e_atan2.lo $(objects)/e_log.lo $(objects)/e_pow.lo $(objects)/e_rem_pio2.lo $(objects)/e_sqrt.lo $(objects)/k_cos.lo $(objects)/k_rem_pio2.lo $(objects)/k_sin.lo $(objects)/s_atan.lo $(objects)/s_copysign.lo $(objects)/s_cos.lo $(objects)/s_fabs.lo $(objects)/s_floor.lo $(objects)/s_scalbn.lo $(objects)/s_sin.lo $(objects)/SDL_power.lo $(objects)/SDL_render.lo $(objects)/SDL_yuv_mmx.lo $(objects)/SDL_yuv_sw.lo $(objects)/SDL_render_d3d.lo $(objects)/SDL_render_gl.lo $(objects)/SDL_shaders_gl.lo $(objects)/SDL_render_gles.lo $(objects)/SDL_render_gles2.lo $(objects)/SDL_shaders_gles2.lo $(objects)/SDL_render_psp.lo $(objects)/SDL_blendfillrect.lo $(objects)/SDL_blendline.lo $(objects)/SDL_blendpoint.lo $(objects)/SDL_drawline.lo $(objects)/SDL_drawpoint.lo $(objects)/SDL_render_sw.lo $(objects)/SDL_rotate.lo $(objects)/SDL_getenv.lo $(objects)/SDL_iconv.lo $(objects)/SDL_malloc.lo $(objects)/SDL_qsort.lo $(objects)/SDL_stdlib.lo $(objects)/SDL_string.lo $(objects)/SDL_thread.lo $(objects)/SDL_timer.lo $(objects)/SDL_RLEaccel.lo $(objects)/SDL_blit.lo $(objects)/SDL_blit_0.lo $(objects)/SDL_blit_1.lo $(objects)/SDL_blit_A.lo $(objects)/SDL_blit_N.lo $(objects)/SDL_blit_auto.lo $(objects)/SDL_blit_copy.lo $(objects)/SDL_blit_slow.lo $(objects)/SDL_bmp.lo $(objects)/SDL_clipboard.lo $(objects)/SDL_fillrect.lo $(objects)/SDL_pixels.lo $(objects)/SDL_rect.lo $(objects)/SDL_shape.lo $(objects)/SDL_stretch.lo $(objects)/SDL_surface.lo $(objects)/SDL_video.lo $(objects)/SDL_nullevents.lo $(objects)/SDL_nullframebuffer.lo $(objects)/SDL_nullvideo.lo $(objects)/SDL_diskaudio.lo $(objects)/SDL_dummyaudio.lo $(objects)/SDL_sysloadso.lo $(objects)/SDL_dspaudio.lo $(objects)/SDL_alsa_audio.lo $(objects)/SDL_pulseaudio.lo $(objects)/SDL_x11clipboard.lo $(objects)/SDL_x11dyn.lo $(objects)/SDL_x11events.lo $(objects)/SDL_x11framebuffer.lo $(objects)/SDL_x11keyboard.lo $(objects)/SDL_x11messagebox.lo $(objects)/SDL_x11modes.lo $(objects)/SDL_x11mouse.lo $(objects)/SDL_x11opengl.lo $(objects)/SDL_x11opengles.lo $(objects)/SDL_x11shape.lo $(objects)/SDL_x11touch.lo $(objects)/SDL_x11video.lo $(objects)/SDL_x11window.lo $(objects)/SDL_x11xinput2.lo $(objects)/edid-parse.lo $(objects)/imKStoUCS.lo $(objects)/SDL_systhread.lo $(objects)/SDL_syssem.lo $(objects)/SDL_sysmutex.lo $(objects)/SDL_syscond.lo $(objects)/SDL_systls.lo $(objects)/SDL_sysjoystick.lo $(objects)/SDL_syshaptic.lo $(objects)/SDL_syspower.lo $(objects)/SDL_systimer.lo'
+OBJEXT='o'
+OTOOL64=''
+OTOOL=''
+PACKAGE_BUGREPORT=''
+PACKAGE_NAME=''
+PACKAGE_STRING=''
+PACKAGE_TARNAME=''
+PACKAGE_URL=''
+PACKAGE_VERSION=''
+PATH_SEPARATOR=':'
+PKG_CONFIG='/usr/bin/pkg-config'
+POW_LIB=''
+RANLIB='ranlib'
+SDLMAIN_OBJECTS='$(objects)/SDL_dummy_main.o'
+SDLTEST_OBJECTS='$(objects)/SDL_test_assert.o $(objects)/SDL_test_common.o $(objects)/SDL_test_compare.o $(objects)/SDL_test_crc32.o $(objects)/SDL_test_font.o $(objects)/SDL_test_fuzzer.o $(objects)/SDL_test_harness.o $(objects)/SDL_test_imageBlit.o $(objects)/SDL_test_imageBlitBlend.o $(objects)/SDL_test_imageFace.o $(objects)/SDL_test_imagePrimitives.o $(objects)/SDL_test_imagePrimitivesBlend.o $(objects)/SDL_test_log.o $(objects)/SDL_test_md5.o $(objects)/SDL_test_random.o'
+SDL_BINARY_AGE='0'
+SDL_CFLAGS='  -D_REENTRANT'
+SDL_INTERFACE_AGE='0'
+SDL_LIBS='-lSDL2  -lpthread'
+SDL_MAJOR_VERSION='2'
+SDL_MICRO_VERSION='0'
+SDL_MINOR_VERSION='0'
+SDL_RLD_FLAGS='-Wl,-rpath,${libdir}'
+SDL_STATIC_LIBS='-lSDL2  -lpthread  -lm -ldl -lpthread -lrt'
+SDL_VERSION='2.0.0'
+SED='/usr/bin/sed'
+SET_MAKE=''
+SHELL='/bin/sh'
+STRIP='strip'
+VERSION_OBJECTS=''
+WINDRES=':'
+XMKMF=''
+X_CFLAGS=''
+X_EXTRA_LIBS=''
+X_LIBS=''
+X_PRE_LIBS=' -lSM -lICE'
+ac_aux_dir='build-scripts'
+ac_ct_AR='ar'
+ac_ct_CC='gcc'
+ac_ct_CXX='g++'
+ac_ct_DUMPBIN=''
+bindir='${exec_prefix}/bin'
+build='x86_64-unknown-linux-gnu'
+build_alias=''
+build_cpu='x86_64'
+build_os='linux-gnu'
+build_vendor='unknown'
+datadir='${datarootdir}'
+datarootdir='${prefix}/share'
+docdir='${datarootdir}/doc/${PACKAGE}'
+dvidir='${docdir}'
+exec_prefix='${prefix}'
+host='x86_64-unknown-linux-gnu'
+host_alias=''
+host_cpu='x86_64'
+host_os='linux-gnu'
+host_vendor='unknown'
+htmldir='${docdir}'
+includedir='${prefix}/include'
+infodir='${datarootdir}/info'
+libdir='${exec_prefix}/lib'
+libexecdir='${exec_prefix}/libexec'
+localedir='${datarootdir}/locale'
+localstatedir='${prefix}/var'
+mandir='${datarootdir}/man'
+oldincludedir='/usr/include'
+pdfdir='${docdir}'
+prefix='/home/jmf/projects/gamedev/cog_deps/arch32'
+program_transform_name='s,x,x,'
+psdir='${docdir}'
+sbindir='${exec_prefix}/sbin'
+sharedstatedir='${prefix}/com'
+sysconfdir='${prefix}/etc'
+target_alias=''
+
+## ----------- ##
+## confdefs.h. ##
+## ----------- ##
+
+/* confdefs.h */
+#define PACKAGE_NAME ""
+#define PACKAGE_TARNAME ""
+#define PACKAGE_VERSION ""
+#define PACKAGE_STRING ""
+#define PACKAGE_BUGREPORT ""
+#define PACKAGE_URL ""
+#define STDC_HEADERS 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_DLFCN_H 1
+#define LT_OBJDIR ".libs/"
+#define HAVE_LIBC 1
+#define STDC_HEADERS 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_STDIO_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STDDEF_H 1
+#define HAVE_STDARG_H 1
+#define HAVE_MALLOC_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_CTYPE_H 1
+#define HAVE_MATH_H 1
+#define HAVE_ICONV_H 1
+#define HAVE_SIGNAL_H 1
+#define HAVE_M_PI /**/
+#define HAVE_ALLOCA_H 1
+#define HAVE_ALLOCA 1
+#define HAVE_MEMCMP 1
+#define HAVE_STRTOD 1
+#define HAVE_MPROTECT 1
+#define HAVE_MALLOC 1
+#define HAVE_CALLOC 1
+#define HAVE_REALLOC 1
+#define HAVE_FREE 1
+#define HAVE_GETENV 1
+#define HAVE_SETENV 1
+#define HAVE_PUTENV 1
+#define HAVE_UNSETENV 1
+#define HAVE_QSORT 1
+#define HAVE_ABS 1
+#define HAVE_BCOPY 1
+#define HAVE_MEMSET 1
+#define HAVE_MEMCPY 1
+#define HAVE_MEMMOVE 1
+#define HAVE_STRLEN 1
+#define HAVE_STRDUP 1
+#define HAVE_STRCHR 1
+#define HAVE_STRRCHR 1
+#define HAVE_STRSTR 1
+#define HAVE_STRTOL 1
+#define HAVE_STRTOUL 1
+#define HAVE_STRTOLL 1
+#define HAVE_STRTOULL 1
+#define HAVE_ATOI 1
+#define HAVE_ATOF 1
+#define HAVE_STRCMP 1
+#define HAVE_STRNCMP 1
+#define HAVE_STRCASECMP 1
+#define HAVE_STRNCASECMP 1
+#define HAVE_SSCANF 1
+#define HAVE_SNPRINTF 1
+#define HAVE_VSNPRINTF 1
+#define HAVE_FSEEKO 1
+#define HAVE_FSEEKO64 1
+#define HAVE_SIGACTION 1
+#define HAVE_SETJMP 1
+#define HAVE_NANOSLEEP 1
+#define HAVE_SYSCONF 1
+#define HAVE_ATAN 1
+#define HAVE_ATAN2 1
+#define HAVE_CEIL 1
+#define HAVE_COPYSIGN 1
+#define HAVE_COS 1
+#define HAVE_COSF 1
+#define HAVE_FABS 1
+#define HAVE_FLOOR 1
+#define HAVE_LOG 1
+#define HAVE_POW 1
+#define HAVE_SCALBN 1
+#define HAVE_SIN 1
+#define HAVE_SINF 1
+#define HAVE_SQRT 1
+#define HAVE_ICONV 1
+#define HAVE_SA_SIGACTION 1
+#define HAVE_GCC_ATOMICS 1
+#define SDL_ASSEMBLY_ROUTINES 1
+#define SDL_VIDEO_DRIVER_DUMMY 1
+#define SDL_AUDIO_DRIVER_DISK 1
+#define SDL_AUDIO_DRIVER_DUMMY 1
+#define SDL_LOADSO_DLOPEN 1
+#define SDL_AUDIO_DRIVER_OSS 1
+#define HAVE_LIBASOUND 1
+#define SDL_AUDIO_DRIVER_ALSA 1
+#define SDL_AUDIO_DRIVER_ALSA_DYNAMIC "libasound.so.2"
+#define SDL_AUDIO_DRIVER_PULSEAUDIO 1
+#define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse-simple.so.0"
+#define SDL_VIDEO_DRIVER_X11 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC "libX11.so.6"
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XEXT "libXext.so.6"
+#define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY 1
+#define SDL_VIDEO_DRIVER_X11_CONST_PARAM_XDATA32 1
+#define SDL_VIDEO_DRIVER_X11_SUPPORTS_GENERIC_EVENTS 1
+#define SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XCURSOR "libXcursor.so.1"
+#define SDL_VIDEO_DRIVER_X11_XCURSOR 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINERAMA "libXinerama.so.1"
+#define SDL_VIDEO_DRIVER_X11_XINERAMA 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XINPUT2 "libXi.so.6"
+#define SDL_VIDEO_DRIVER_X11_XINPUT2 1
+#define SDL_VIDEO_DRIVER_X11_XINPUT2_SUPPORTS_MULTITOUCH 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XRANDR "libXrandr.so.2"
+#define SDL_VIDEO_DRIVER_X11_XRANDR 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XSS "libXss.so.1"
+#define SDL_VIDEO_DRIVER_X11_XSCRNSAVER 1
+#define SDL_VIDEO_DRIVER_X11_XSHAPE 1
+#define SDL_VIDEO_DRIVER_X11_DYNAMIC_XVIDMODE "libXxf86vm.so.1"
+#define SDL_VIDEO_DRIVER_X11_XVIDMODE 1
+#define SDL_VIDEO_OPENGL 1
+#define SDL_VIDEO_OPENGL_GLX 1
+#define SDL_VIDEO_RENDER_OGL 1
+#define SDL_VIDEO_OPENGL_ES 1
+#define SDL_VIDEO_RENDER_OGL_ES 1
+#define SDL_VIDEO_OPENGL_ES2 1
+#define SDL_VIDEO_RENDER_OGL_ES2 1
+#define HAVE_LIBUDEV_H 1
+#define HAVE_DBUS_DBUS_H 1
+#define SDL_INPUT_LINUXEV 1
+#define SDL_THREAD_PTHREAD 1
+#define SDL_THREAD_PTHREAD_RECURSIVE_MUTEX 1
+#define HAVE_SEM_TIMEDWAIT 1
+#define HAVE_PTHREAD_SPINLOCK 1
+#define HAVE_PTHREAD_SETNAME_NP 1
+#define HAVE_CLOCK_GETTIME 1
+#define SDL_JOYSTICK_LINUX 1
+#define SDL_HAPTIC_LINUX 1
+#define SDL_POWER_LINUX 1
+#define SDL_TIMER_UNIX 1
+
+configure: exit 0
