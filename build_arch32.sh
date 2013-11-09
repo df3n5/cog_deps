@@ -63,9 +63,9 @@ build_sdl () {
 }
 
 
-#build_freealut
-#build_freetype2
-#build_glew
+build_freealut
+build_freetype2
+build_glew
 build_openal
-#build_png
-#build_sdl
+build_png
+build_sdl
