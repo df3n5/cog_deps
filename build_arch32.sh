@@ -7,7 +7,8 @@ popd
 
 #SDL2
 pushd src/SDL2
-./configure
+./autogen.sh
+./configure --prefix=$dest_dir
 make
-make install DESTDIR=$dest_dir
+make DESTDIR=$dest_dir install
 popd
