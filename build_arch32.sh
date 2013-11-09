@@ -16,6 +16,23 @@ build_freealut () {
     popd
 }
 
+build_freetype2 () {
+    pushd src/freetype2
+    ./autogen.sh
+    ./configure --prefix=$dest_dir
+    make
+    make install
+    popd
+}
+
+build_glew () {
+    pushd src/glew
+    make
+    make DESTDIR=$dest_dir install
+    popd
+}
+
+
 build_png () {
     pushd src/png
     ./autogen.sh
@@ -29,12 +46,15 @@ build_sdl () {
     pushd src/SDL2
     ./autogen.sh
     ./configure --prefix=$dest_dir
+    make extensions
     make
     make install
     popd
 }
 
 
-build_freealut
+#build_freealut
+#build_freetype2
+build_glew
 #build_png
 #build_sdl
