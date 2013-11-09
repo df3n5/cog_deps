@@ -6,7 +6,7 @@
 	url = https://github.com/vancegroup/freealut.git
 [submodule "src/OpenAL"]
 	path = src/OpenAL
-	url = https://github.com/blackberry/OpenAL.git
+	url = git://repo.or.cz/openal-soft.git
 [submodule "src/glew"]
 	path = src/glew
 	url = https://github.com/nigels-com/glew.git
@@ -22,3 +22,6 @@
 [submodule "src/png"]
 	path = src/png
 	url = git://git.code.sf.net/p/libpng/code
+[submodule "src/openal-soft"]
+	path = src/openal-soft
+	url = git://repo.or.cz/openal-soft.git

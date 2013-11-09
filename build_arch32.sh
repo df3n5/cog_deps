@@ -32,6 +32,17 @@ build_glew () {
     popd
 }
 
+build_openal () {
+    pushd src/OpenAL
+    mkdir build
+    pushd build
+    cmake ../src
+    make
+    make install DESTDIR=$dest_dir
+    popd
+    popd
+}
+
 
 build_png () {
     pushd src/png
@@ -55,6 +66,7 @@ build_sdl () {
 
 #build_freealut
 #build_freetype2
-build_glew
+#build_glew
+build_openal
 #build_png
 #build_sdl
