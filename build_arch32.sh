@@ -27,8 +27,8 @@ build_freetype2 () {
 
 build_glew () {
     pushd src/glew
-    make
-    make DESTDIR=$dest_dir install
+    sed -i 's|lib64|lib|' config/Makefile.linux
+    make GLEW_DEST=$dest_dir install.all
     popd
 }
 
