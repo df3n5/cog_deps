@@ -16,3 +16,6 @@
 [submodule "src/libpng"]
 	path = src/libpng
 	url = git://git.code.sf.net/p/libpng/code
+[submodule "src/SDL2"]
+	path = src/SDL2
+	url = https://github.com/zielmicha/SDL2.git
