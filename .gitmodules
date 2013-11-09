@@ -25,3 +25,6 @@
 [submodule "src/openal-soft"]
 	path = src/openal-soft
 	url = git://repo.or.cz/openal-soft.git
+[submodule "src/luajit-2.0"]
+	path = src/luajit-2.0
+	url = http://luajit.org/git/luajit-2.0.git

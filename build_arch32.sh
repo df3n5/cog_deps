@@ -32,6 +32,13 @@ build_glew () {
     popd
 }
 
+build_luajit () {
+    pushd src/luajit-2.0
+    make
+    make install PREFIX=$dest_dir
+    popd
+}
+
 build_openal () {
     pushd src/openal-soft
     pushd build
@@ -66,6 +73,7 @@ build_sdl () {
 build_freealut
 build_freetype2
 build_glew
+build_luajit
 build_openal
 build_png
 build_sdl
