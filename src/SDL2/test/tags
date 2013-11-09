@@ -1,0 +1,975 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWABLE_ERROR_BLENDED	testautomation_render.c	23;"	d	file:
+ALLOWABLE_ERROR_OPAQUE	testautomation_render.c	22;"	d	file:
+AXIS_CASE	testgamecontroller.c	48;"	d	file:
+AXIS_CASE	testgamecontroller.c	56;"	d	file:
+BPP	testgesture.c	49;"	d	file:
+BUTTON_CASE	testgamecontroller.c	66;"	d	file:
+BUTTON_CASE	testgamecontroller.c	83;"	d	file:
+CleanupDestroyRenderer	testautomation_render.c	/^void CleanupDestroyRenderer(void *arg)$/;"	f
+CleanupVideo	testime.c	/^void CleanupVideo()$/;"	f
+CompileShader	testshader.c	/^static SDL_bool CompileShader(GLhandleARB shader, const char *source)$/;"	f	file:
+CompileShaderProgram	testshader.c	/^static SDL_bool CompileShaderProgram(ShaderData *data)$/;"	f	file:
+ControllerAxisName	testgamecontroller.c	/^ControllerAxisName(const SDL_GameControllerAxis axis)$/;"	f	file:
+ControllerButtonName	testgamecontroller.c	/^ControllerButtonName(const SDL_GameControllerButton button)$/;"	f	file:
+ConvertRGBtoYV12	testoverlay2.c	/^ConvertRGBtoYV12(Uint8 *rgb, Uint8 *out, int w, int h,$/;"	f
+CountInc	testatomic.c	101;"	d	file:
+CountTo	testatomic.c	105;"	d	file:
+CreateNativeWindow	testnative.h	/^    void *(*CreateNativeWindow) (int w, int h);$/;"	m	struct:__anon14
+CreateWindowNative	testnativew32.c	/^CreateWindowNative(int w, int h)$/;"	f	file:
+CreateWindowX11	testnativex11.c	/^CreateWindowX11(int w, int h)$/;"	f	file:
+DEFAULT_FONT	testime.c	26;"	d	file:
+DEFAULT_PTSIZE	testime.c	25;"	d	file:
+DEFAULT_RESOLUTION	testtimer.c	22;"	d	file:
+DEPTH	testgesture.c	50;"	d	file:
+DequeueEvent_LockFree	testatomic.c	/^static SDL_bool DequeueEvent_LockFree(SDL_EventQueue *queue, SDL_Event *event)$/;"	f	file:
+DequeueEvent_Mutex	testatomic.c	/^static SDL_bool DequeueEvent_Mutex(SDL_EventQueue *queue, SDL_Event *event)$/;"	f	file:
+DestroyNativeWindow	testnative.h	/^    void (*DestroyNativeWindow) (void *window);$/;"	m	struct:__anon14
+DestroyShaderProgram	testshader.c	/^static void DestroyShaderProgram(ShaderData *data)$/;"	f	file:
+DestroyWindowNative	testnativew32.c	/^DestroyWindowNative(void *window)$/;"	f	file:
+DestroyWindowX11	testnativex11.c	/^DestroyWindowX11(void *window)$/;"	f	file:
+Draw	testrendercopyex.c	/^Draw(DrawState *s)$/;"	f
+Draw	testrendertarget.c	/^Draw(DrawState *s)$/;"	f
+Draw	testscale.c	/^Draw(DrawState *s)$/;"	f
+DrawChessBoard	testdrawchessboard.c	/^DrawChessBoard(SDL_Renderer * renderer)$/;"	f
+DrawComposite	testrendertarget.c	/^DrawComposite(DrawState *s)$/;"	f
+DrawGLScene	testshader.c	/^void DrawGLScene(SDL_Window *window, GLuint texture, GLfloat * texcoord)$/;"	f
+DrawLines	testdraw2.c	/^DrawLines(SDL_Renderer * renderer)$/;"	f
+DrawLines	testintersections.c	/^DrawLines(SDL_Renderer * renderer)$/;"	f
+DrawPoints	testdraw2.c	/^DrawPoints(SDL_Renderer * renderer)$/;"	f
+DrawPoints	testintersections.c	/^DrawPoints(SDL_Renderer * renderer)$/;"	f
+DrawRect	testgamecontroller.c	/^DrawRect(SDL_Renderer *r, const int x, const int y, const int w, const int h)$/;"	f	file:
+DrawRect	testjoystick.c	/^DrawRect(SDL_Renderer *r, const int x, const int y, const int w, const int h)$/;"	f	file:
+DrawRectLineIntersections	testintersections.c	/^DrawRectLineIntersections(SDL_Renderer * renderer)$/;"	f	file:
+DrawRectRectIntersections	testintersections.c	/^DrawRectRectIntersections(SDL_Renderer * renderer)$/;"	f	file:
+DrawRects	testdraw2.c	/^DrawRects(SDL_Renderer * renderer)$/;"	f
+DrawRects	testintersections.c	/^DrawRects(SDL_Renderer * renderer)$/;"	f	file:
+DrawRects	testrelative.c	/^DrawRects(SDL_Renderer * renderer)$/;"	f	file:
+DrawScreen	testgesture.c	/^void DrawScreen(SDL_Surface* screen)$/;"	f
+DrawState	testrendercopyex.c	/^} DrawState;$/;"	t	typeref:struct:__anon11	file:
+DrawState	testrendertarget.c	/^} DrawState;$/;"	t	typeref:struct:__anon13	file:
+DrawState	testscale.c	/^} DrawState;$/;"	t	typeref:struct:__anon12	file:
+EVENTS_PER_WRITER	testatomic.c	256;"	d	file:
+EVENT_BUF_SIZE	testgesture.c	53;"	d	file:
+EnqueueEvent_LockFree	testatomic.c	/^static SDL_bool EnqueueEvent_LockFree(SDL_EventQueue *queue, const SDL_Event *event)$/;"	f	file:
+EnqueueEvent_Mutex	testatomic.c	/^static SDL_bool EnqueueEvent_Mutex(SDL_EventQueue *queue, const SDL_Event *event)$/;"	f	file:
+Expect	testatomic.c	107;"	d	file:
+FBASENAME1	testfile.c	33;"	d	file:
+FBASENAME1	testfile.c	36;"	d	file:
+FBASENAME2	testfile.c	34;"	d	file:
+FBASENAME2	testfile.c	37;"	d	file:
+FIFO_Reader	testatomic.c	/^static int FIFO_Reader(void* _data)$/;"	f	file:
+FIFO_Watcher	testatomic.c	/^static int FIFO_Watcher(void* _data)$/;"	f	file:
+FIFO_Writer	testatomic.c	/^static int FIFO_Writer(void* _data)$/;"	f	file:
+HAVE_OPENGL	testgl2.c	20;"	d	file:
+HAVE_OPENGLES	testgles.c	20;"	d	file:
+HEIGHT	testgesture.c	48;"	d	file:
+HapticPrintSupported	testhaptic.c	/^HapticPrintSupported(SDL_Haptic * haptic)$/;"	f	file:
+InitCreateRenderer	testautomation_render.c	/^void InitCreateRenderer(void *arg)$/;"	f
+InitEventQueue	testatomic.c	/^static void InitEventQueue(SDL_EventQueue *queue)$/;"	f	file:
+InitGL	testshader.c	/^void InitGL(int Width, int Height)                    \/\/ We call this right after our OpenGL window is created.$/;"	f
+InitInput	testime.c	/^void InitInput()$/;"	f
+InitShaders	testshader.c	/^static SDL_bool InitShaders()$/;"	f	file:
+Knob	testgesture.c	/^} Knob;$/;"	t	typeref:struct:__anon2	file:
+LoadSprite	testnative.c	/^LoadSprite(SDL_Renderer *renderer, char *file)$/;"	f
+LoadSprite	testsprite2.c	/^LoadSprite(const char *file)$/;"	f
+LoadSprite	testspriteminimal.c	/^LoadSprite(char *file, SDL_Renderer *renderer)$/;"	f
+LoadTexture	testrendercopyex.c	/^LoadTexture(SDL_Renderer *renderer, char *file, SDL_bool transparent)$/;"	f
+LoadTexture	testrendertarget.c	/^LoadTexture(SDL_Renderer *renderer, char *file, SDL_bool transparent)$/;"	f
+LoadTexture	testscale.c	/^LoadTexture(SDL_Renderer *renderer, char *file, SDL_bool transparent)$/;"	f
+LoadedPicture	testshape.c	/^typedef struct LoadedPicture {$/;"	s	file:
+LoadedPicture	testshape.c	/^} LoadedPicture;$/;"	t	typeref:struct:LoadedPicture	file:
+MAX_ENTRIES	testatomic.c	259;"	d	file:
+MAX_LINES	testintersections.c	76;"	d	file:
+MAX_NUM_AXES	testgamecontroller.c	31;"	d	file:
+MAX_NUM_HATS	testgamecontroller.c	32;"	d	file:
+MAX_RECTS	testintersections.c	120;"	d	file:
+MAX_SPEED	testnative.c	23;"	d	file:
+MAX_SPEED	testsprite2.c	22;"	d	file:
+MAX_SPEED	testspriteminimal.c	23;"	d	file:
+MAX_TEXT_LENGTH	testime.c	27;"	d	file:
+MOOSEFRAMES_COUNT	testoverlay2.c	29;"	d	file:
+MOOSEFRAMES_COUNT	teststreaming.c	27;"	d	file:
+MOOSEFRAME_SIZE	testoverlay2.c	28;"	d	file:
+MOOSEFRAME_SIZE	teststreaming.c	26;"	d	file:
+MOOSEPIC_H	testoverlay2.c	26;"	d	file:
+MOOSEPIC_H	teststreaming.c	24;"	d	file:
+MOOSEPIC_W	testoverlay2.c	25;"	d	file:
+MOOSEPIC_W	teststreaming.c	23;"	d	file:
+MOUSE_TESTWINDOW_HEIGHT	testautomation_mouse.c	413;"	d	file:
+MOUSE_TESTWINDOW_WIDTH	testautomation_mouse.c	412;"	d	file:
+MooseColors	testoverlay2.c	/^SDL_Color MooseColors[84] = {$/;"	v
+MooseColors	teststreaming.c	/^SDL_Color MooseColors[84] = {$/;"	v
+MooseFrames	teststreaming.c	/^Uint8 MooseFrames[MOOSEFRAMES_COUNT][MOOSEFRAME_SIZE];$/;"	v
+MoveSprites	testnative.c	/^MoveSprites(SDL_Renderer * renderer, SDL_Texture * sprite)$/;"	f
+MoveSprites	testsprite2.c	/^MoveSprites(SDL_Renderer * renderer, SDL_Texture * sprite)$/;"	f
+MoveSprites	testspriteminimal.c	/^MoveSprites(SDL_Renderer * renderer, SDL_Texture * sprite)$/;"	f
+NInter	testatomic.c	106;"	d	file:
+NThreads	testatomic.c	100;"	d	file:
+NULL	testfile.c	41;"	d	file:
+NUMTHREADS	torturethread.c	23;"	d	file:
+NUM_OBJECTS	testdraw2.c	21;"	d	file:
+NUM_OBJECTS	testintersections.c	22;"	d	file:
+NUM_READERS	testatomic.c	254;"	d	file:
+NUM_SHADERS	testshader.c	/^    NUM_SHADERS$/;"	e	enum:__anon9	file:
+NUM_SPRITES	testnative.c	22;"	d	file:
+NUM_SPRITES	testsprite2.c	21;"	d	file:
+NUM_SPRITES	testspriteminimal.c	22;"	d	file:
+NUM_THREADS	testsem.c	22;"	d	file:
+NUM_WRITERS	testatomic.c	255;"	d	file:
+NativeWindowFactory	testnative.h	/^} NativeWindowFactory;$/;"	t	typeref:struct:__anon14
+PRIs32	testgesture.c	27;"	d	file:
+PRIs64	testgesture.c	34;"	d	file:
+PRIs64	testgesture.c	36;"	d	file:
+PRIu32	testgesture.c	30;"	d	file:
+PRIu64	testgesture.c	41;"	d	file:
+PRIu64	testgesture.c	43;"	d	file:
+Point	testgesture.c	/^} Point;$/;"	t	typeref:struct:__anon1	file:
+PrintKey	checkkeys.c	/^PrintKey(SDL_Keysym * sym, SDL_bool pressed, SDL_bool repeat)$/;"	f	file:
+PrintText	checkkeys.c	/^PrintText(char *text)$/;"	f	file:
+PrintUsage	testoverlay2.c	/^PrintUsage(char *argv0)$/;"	f	file:
+QuitShaders	testshader.c	/^static void QuitShaders()$/;"	f	file:
+RENDER_COMPARE_AMASK	testautomation_render.c	17;"	d	file:
+RENDER_COMPARE_BMASK	testautomation_render.c	20;"	d	file:
+RENDER_COMPARE_FORMAT	testautomation_render.c	16;"	d	file:
+RENDER_COMPARE_GMASK	testautomation_render.c	19;"	d	file:
+RENDER_COMPARE_RMASK	testautomation_render.c	18;"	d	file:
+RGBtoYUV	testoverlay2.c	/^RGBtoYUV(Uint8 * rgb, int *yuv, int monochrome, int luminance)$/;"	f
+RWOP_ERR_QUIT	testfile.c	64;"	d	file:
+RWopsAlphabetFilename	testautomation_rwops.c	/^const char* RWopsAlphabetFilename = "rwops_alphabet";$/;"	v
+RWopsAlphabetString	testautomation_rwops.c	/^static const char RWopsAlphabetString[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";$/;"	v	file:
+RWopsHelloWorldCompString	testautomation_rwops.c	/^static const char RWopsHelloWorldCompString[] = "Hello World!";$/;"	v	file:
+RWopsHelloWorldTestString	testautomation_rwops.c	/^static const char RWopsHelloWorldTestString[] = "Hello World!";$/;"	v	file:
+RWopsReadTestFilename	testautomation_rwops.c	/^const char* RWopsReadTestFilename = "rwops_read";$/;"	v
+RWopsSetUp	testautomation_rwops.c	/^RWopsSetUp(void *arg)$/;"	f
+RWopsTearDown	testautomation_rwops.c	/^RWopsTearDown(void *arg)$/;"	f
+RWopsWriteTestFilename	testautomation_rwops.c	/^const char* RWopsWriteTestFilename = "rwops_write";$/;"	v
+ReaderData	testatomic.c	/^} ReaderData;$/;"	t	typeref:struct:__anon8	file:
+Redraw	testime.c	/^void Redraw() {$/;"	f
+Render	testgl2.c	/^Render()$/;"	f	file:
+Render	testgles.c	/^Render()$/;"	f	file:
+Run	testlock.c	/^Run(void *data)$/;"	f
+RunBasicTest	testatomic.c	/^void RunBasicTest()$/;"	f	file:
+RunEpicTest	testatomic.c	/^void RunEpicTest()$/;"	f	file:
+RunFIFOTest	testatomic.c	/^static void RunFIFOTest(SDL_bool lock_free)$/;"	f	file:
+SCREEN_HEIGHT	testgamecontroller.c	25;"	d	file:
+SCREEN_HEIGHT	testgamecontroller.c	28;"	d	file:
+SCREEN_HEIGHT	testjoystick.c	25;"	d	file:
+SCREEN_HEIGHT	testjoystick.c	28;"	d	file:
+SCREEN_WIDTH	testgamecontroller.c	24;"	d	file:
+SCREEN_WIDTH	testgamecontroller.c	27;"	d	file:
+SCREEN_WIDTH	testjoystick.c	24;"	d	file:
+SCREEN_WIDTH	testjoystick.c	27;"	d	file:
+SDL_EventQueue	testatomic.c	/^} SDL_EventQueue;$/;"	t	typeref:struct:__anon6	file:
+SDL_EventQueueEntry	testatomic.c	/^} SDL_EventQueueEntry;$/;"	t	typeref:struct:__anon5	file:
+SDL_GL_LoadTexture	testshader.c	/^SDL_GL_LoadTexture(SDL_Surface * surface, GLfloat * texcoord)$/;"	f
+SDL_Quit_Wrapper	testlock.c	/^SDL_Quit_Wrapper(void)$/;"	f	file:
+SDL_snprintf	testautomation_stdlib.c	42;"	d	file:
+SDL_strlcpy	testautomation_stdlib.c	16;"	d	file:
+SHADED_CUBE	testgl2.c	28;"	d	file:
+SHADER_COLOR	testshader.c	/^    SHADER_COLOR,$/;"	e	enum:__anon9	file:
+SHADER_TEXCOORDS	testshader.c	/^    SHADER_TEXCOORDS,$/;"	e	enum:__anon9	file:
+SHADER_TEXTURE	testshader.c	/^    SHADER_TEXTURE,$/;"	e	enum:__anon9	file:
+SHAPED_WINDOW_DIMENSION	testshape.c	20;"	d	file:
+SHAPED_WINDOW_X	testshape.c	18;"	d	file:
+SHAPED_WINDOW_Y	testshape.c	19;"	d	file:
+SWAP	testintersections.c	21;"	d	file:
+ShaderData	testshader.c	/^} ShaderData;$/;"	t	typeref:struct:__anon10	file:
+SubThreadFunc	torturethread.c	/^SubThreadFunc(void *data)$/;"	f
+TESTRENDER_SCREEN_H	testautomation_render.c	14;"	d	file:
+TESTRENDER_SCREEN_W	testautomation_render.c	13;"	d	file:
+TEST_NATIVE_COCOA	testnative.h	44;"	d
+TEST_NATIVE_WINDOWS	testnative.h	30;"	d
+TEST_NATIVE_X11	testnative.h	35;"	d
+TEST_SPINLOCK_FIFO	testatomic.c	252;"	d	file:
+TEST_SURFACE_HEIGHT	testautomation_surface.c	26;"	d	file:
+TEST_SURFACE_WIDTH	testautomation_surface.c	25;"	d	file:
+TICK_INTERVAL	testshape.c	22;"	d	file:
+TestAssertions	testplatform.c	/^TestAssertions(SDL_bool verbose)$/;"	f
+TestCPUInfo	testplatform.c	/^TestCPUInfo(SDL_bool verbose)$/;"	f
+TestEndian	testplatform.c	/^TestEndian(SDL_bool verbose)$/;"	f
+TestTypes	testplatform.c	/^TestTypes(SDL_bool verbose)$/;"	f
+TestWaitTimeout	testsem.c	/^TestWaitTimeout(void)$/;"	f	file:
+ThreadFunc	testerror.c	/^ThreadFunc(void *data)$/;"	f
+ThreadFunc	testsem.c	/^ThreadFunc(void *data)$/;"	f
+ThreadFunc	testthread.c	/^ThreadFunc(void *data)$/;"	f
+ThreadFunc	torturethread.c	/^ThreadFunc(void *data)$/;"	f
+UINT16_MAX	testautomation_sdltest.c	8;"	d	file:
+UINT16_MAX	testautomation_video.c	11;"	d	file:
+UINT32_MAX	testautomation_sdltest.c	9;"	d	file:
+UINT32_MAX	testautomation_video.c	12;"	d	file:
+UINT64_MAX	testautomation_sdltest.c	10;"	d	file:
+UINT64_MAX	testautomation_video.c	13;"	d	file:
+UINT8_MAX	testautomation_sdltest.c	7;"	d	file:
+UINT8_MAX	testautomation_video.c	10;"	d	file:
+UpdateTexture	teststreaming.c	/^void UpdateTexture(SDL_Texture *texture, int frame)$/;"	f
+VALBITS	testatomic.c	102;"	d	file:
+VERBOSE	testgesture.c	56;"	d	file:
+WIDTH	testgesture.c	47;"	d	file:
+WINDOW_H	testnative.c	21;"	d	file:
+WINDOW_HEIGHT	testscale.c	21;"	d	file:
+WINDOW_HEIGHT	testspriteminimal.c	21;"	d	file:
+WINDOW_W	testnative.c	20;"	d	file:
+WINDOW_WIDTH	testscale.c	20;"	d	file:
+WINDOW_WIDTH	testspriteminimal.c	20;"	d	file:
+WRAP_MASK	testatomic.c	260;"	d	file:
+WatchGameController	testgamecontroller.c	/^WatchGameController(SDL_GameController * gamecontroller)$/;"	f
+WatchJoystick	testjoystick.c	/^WatchJoystick(SDL_Joystick * joystick)$/;"	f	file:
+WindowsWindowFactory	testnativew32.c	/^NativeWindowFactory WindowsWindowFactory = {$/;"	v
+WndProc	testnativew32.c	/^WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)$/;"	f
+WriterData	testatomic.c	/^} WriterData;$/;"	t	typeref:struct:__anon7	file:
+X11WindowFactory	testnativex11.c	/^NativeWindowFactory X11WindowFactory = {$/;"	v
+XrmInitialize	configure	/^XrmInitialize ()$/;"	f
+_AssertFileExist	testautomation_surface.c	/^_AssertFileExist(const char *filename)$/;"	f
+_CRT_NONSTDC_NO_DEPRECATE	testautomation_surface.c	8;"	d	file:
+_CRT_NONSTDC_NO_WARNINGS	testfile.c	16;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	testautomation_surface.c	7;"	d	file:
+_CRT_SECURE_NO_WARNINGS	testautomation_rwops.c	13;"	d	file:
+_RGBPixelFormats	testautomation_pixels.c	/^Uint32 _RGBPixelFormats[] =$/;"	v
+_RGBPixelFormatsVerbose	testautomation_pixels.c	/^char* _RGBPixelFormatsVerbose[] =$/;"	v
+_Redraw	testime.c	/^void _Redraw(SDL_Renderer * renderer) {$/;"	f
+_audioChannels	testautomation_audio.c	/^Uint8 _audioChannels[] = { 1, 2, 4, 6 };$/;"	v
+_audioFormats	testautomation_audio.c	/^SDL_AudioFormat _audioFormats[] = { AUDIO_S8, AUDIO_U8, AUDIO_S16LSB, AUDIO_S16MSB, AUDIO_S16SYS, AUDIO_S16, AUDIO_U16LSB,$/;"	v
+_audioFormatsVerbose	testautomation_audio.c	/^char *_audioFormatsVerbose[] = { "AUDIO_S8", "AUDIO_U8", "AUDIO_S16LSB", "AUDIO_S16MSB", "AUDIO_S16SYS", "AUDIO_S16", "AUDIO_U16LSB",$/;"	v
+_audioFrequencies	testautomation_audio.c	/^int _audioFrequencies[] = { 11025, 22050, 44100, 48000 };$/;"	v
+_audioSetUp	testautomation_audio.c	/^_audioSetUp(void *arg)$/;"	f
+_audio_testCallback	testautomation_audio.c	/^void _audio_testCallback(void *userdata, Uint8 *stream, int len)$/;"	f
+_changeCursorVisibility	testautomation_mouse.c	/^void _changeCursorVisibility(int state)$/;"	f
+_checkInvalidNameError	testautomation_keyboard.c	/^_checkInvalidNameError()$/;"	f
+_checkInvalidParameterError	testautomation_video.c	/^void _checkInvalidParameterError()$/;"	f
+_checkInvalidScancodeError	testautomation_keyboard.c	/^_checkInvalidScancodeError()$/;"	f
+_checkInvalidWindowError	testautomation_video.c	/^void _checkInvalidWindowError()$/;"	f
+_clearScreen	testautomation_render.c	/^_clearScreen(void)$/;"	f	file:
+_clearTestSurface	testautomation_surface.c	/^void _clearTestSurface()$/;"	f
+_compare	testautomation_render.c	/^_compare(SDL_Surface *referenceSurface, int allowable_error)$/;"	f	file:
+_compareSizeOfType	testautomation_platform.c	/^static int _compareSizeOfType( size_t sizeoftype, size_t hardcodetype )$/;"	f	file:
+_createMouseSuiteTestWindow	testautomation_mouse.c	/^SDL_Window *_createMouseSuiteTestWindow()$/;"	f
+_createVideoSuiteTestWindow	testautomation_video.c	/^SDL_Window *_createVideoSuiteTestWindow(const char *title)$/;"	f
+_destroyMouseSuiteTestWindow	testautomation_mouse.c	/^void _destroyMouseSuiteTestWindow(SDL_Window *window)$/;"	f
+_destroyVideoSuiteTestWindow	testautomation_video.c	/^void _destroyVideoSuiteTestWindow(SDL_Window *window)$/;"	f
+_eventFilterCalled	testautomation_events.c	/^int _eventFilterCalled = 0;$/;"	v
+_events_sampleNullEventFilter	testautomation_events.c	/^int _events_sampleNullEventFilter(void *userdata, SDL_Event *event)$/;"	f
+_hasBlendModes	testautomation_render.c	/^_hasBlendModes (void)$/;"	f	file:
+_hasDrawColor	testautomation_render.c	/^_hasDrawColor (void)$/;"	f	file:
+_hasTexAlpha	testautomation_render.c	/^_hasTexAlpha(void)$/;"	f	file:
+_hasTexColor	testautomation_render.c	/^_hasTexColor (void)$/;"	f	file:
+_initArrowCursor	testautomation_mouse.c	/^static SDL_Cursor *_initArrowCursor(const char *image[])$/;"	f	file:
+_invalidPixelFormats	testautomation_pixels.c	/^Uint32 _invalidPixelFormats[] =$/;"	v
+_invalidPixelFormatsVerbose	testautomation_pixels.c	/^char* _invalidPixelFormatsVerbose[] =$/;"	v
+_isSupported	testautomation_render.c	/^_isSupported( int code )$/;"	f	file:
+_loadTestFace	testautomation_render.c	/^_loadTestFace(void)$/;"	f	file:
+_mouseArrowData	testautomation_mouse.c	/^static const char *_mouseArrowData[] = {$/;"	v	file:
+_mouseStateCheck	testautomation_mouse.c	/^int _mouseStateCheck(Uint32 state)$/;"	f
+_nonRGBPixelFormats	testautomation_pixels.c	/^Uint32 _nonRGBPixelFormats[] =$/;"	v
+_nonRGBPixelFormatsVerbose	testautomation_pixels.c	/^char* _nonRGBPixelFormatsVerbose[] =$/;"	v
+_numAudioChannels	testautomation_audio.c	/^const int _numAudioChannels = 4;$/;"	v
+_numAudioFormats	testautomation_audio.c	/^const int _numAudioFormats = 18;$/;"	v
+_numAudioFrequencies	testautomation_audio.c	/^const int _numAudioFrequencies = 4;$/;"	v
+_numInvalidPixelFormats	testautomation_pixels.c	/^const int _numInvalidPixelFormats = 2;$/;"	v
+_numNonRGBPixelFormats	testautomation_pixels.c	/^const int _numNonRGBPixelFormats = 5;$/;"	v
+_numRGBPixelFormats	testautomation_pixels.c	/^const int _numRGBPixelFormats = 30;$/;"	v
+_paramCheck	testautomation_timer.c	/^int _paramCheck = 0;$/;"	v
+_paramValue	testautomation_timer.c	/^int _paramValue = 0;$/;"	v
+_setAndCheckWindowGrabState	testautomation_video.c	/^_setAndCheckWindowGrabState(SDL_Window* window, SDL_bool desiredState)$/;"	f
+_surfaceSetUp	testautomation_surface.c	/^_surfaceSetUp(void *arg)$/;"	f
+_surfaceTearDown	testautomation_surface.c	/^_surfaceTearDown(void *arg)$/;"	f
+_testBlitBlendMode	testautomation_render.c	/^_testBlitBlendMode( SDL_Texture * tface, int mode )$/;"	f	file:
+_testBlitBlendMode	testautomation_surface.c	/^void _testBlitBlendMode(int mode)$/;"	f
+_testGenericRWopsValidations	testautomation_rwops.c	/^_testGenericRWopsValidations(SDL_RWops *rw, int write)$/;"	f
+_testSetTextInputRect	testautomation_keyboard.c	/^void _testSetTextInputRect(SDL_Rect refRect)$/;"	f
+_testsuites_h	testautomation_suites.h	7;"	d
+_timerCallbackCalled	testautomation_timer.c	/^int _timerCallbackCalled = 0;$/;"	v
+_timerSetUp	testautomation_timer.c	/^_timerSetUp(void *arg)$/;"	f
+_timerTestCallback	testautomation_timer.c	/^Uint32 _timerTestCallback(Uint32 interval, void *param)$/;"	f
+_userdataCheck	testautomation_events.c	/^int _userdataCheck = 0;$/;"	v
+_userdataValue	testautomation_events.c	/^int _userdataValue = 0;$/;"	v
+_userdataValue1	testautomation_events.c	/^int _userdataValue1 = 1;$/;"	v
+_userdataValue2	testautomation_events.c	/^int _userdataValue2 = 2;$/;"	v
+_validateHasIntersectionResults	testautomation_rect.c	/^void _validateHasIntersectionResults($/;"	f
+_validateIntersectRectAndLineResults	testautomation_rect.c	/^void _validateIntersectRectAndLineResults($/;"	f
+_validateIntersectRectResults	testautomation_rect.c	/^void _validateIntersectRectResults($/;"	f
+_validateRectEmptyResults	testautomation_rect.c	/^void _validateRectEmptyResults($/;"	f
+_validateRectEqualsResults	testautomation_rect.c	/^void _validateRectEqualsResults($/;"	f
+_validateUnionRectResults	testautomation_rect.c	/^void _validateUnionRectResults($/;"	f
+abort_execution	testhaptic.c	/^abort_execution(void)$/;"	f	file:
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+active	testatomic.c	/^    volatile SDL_bool active;$/;"	m	struct:__anon6	file:
+add_line	testintersections.c	/^add_line(int x1, int y1, int x2, int y2)$/;"	f	file:
+add_rect	testintersections.c	/^add_rect(int x1, int y1, int x2, int y2)$/;"	f	file:
+adder	testatomic.c	/^int adder(void* junk)$/;"	f	file:
+alive	testerror.c	/^static int alive = 0;$/;"	v	file:
+alive	testmessage.c	/^static int alive = 0;$/;"	v	file:
+alive	testsem.c	/^int alive = 1;$/;"	v
+alive	testthread.c	/^static int alive = 0;$/;"	v	file:
+ang	testgesture.c	/^  float ang,r;$/;"	m	struct:__anon2	file:
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+atomicValue	testatomic.c	104;"	d	file:
+audioTest1	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest1 =$/;"	v	file:
+audioTest10	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest10 =$/;"	v	file:
+audioTest11	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest11 =$/;"	v	file:
+audioTest12	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest12 =$/;"	v	file:
+audioTest13	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest13 =$/;"	v	file:
+audioTest14	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest14 =$/;"	v	file:
+audioTest2	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest2 =$/;"	v	file:
+audioTest3	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest3 =$/;"	v	file:
+audioTest4	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest4 =$/;"	v	file:
+audioTest5	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest5 =$/;"	v	file:
+audioTest6	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest6 =$/;"	v	file:
+audioTest7	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest7 =$/;"	v	file:
+audioTest8	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest8 =$/;"	v	file:
+audioTest9	testautomation_audio.c	/^static const SDLTest_TestCaseReference audioTest9 =$/;"	v	file:
+audioTestSuite	testautomation_audio.c	/^SDLTest_TestSuiteReference audioTestSuite = {$/;"	v
+audioTests	testautomation_audio.c	/^static const SDLTest_TestCaseReference *audioTests[] =  {$/;"	v	file:
+audio_buildAudioCVT	testautomation_audio.c	/^int audio_buildAudioCVT()$/;"	f
+audio_buildAudioCVTNegative	testautomation_audio.c	/^int audio_buildAudioCVTNegative()$/;"	f
+audio_convertAudio	testautomation_audio.c	/^int audio_convertAudio()$/;"	f
+audio_enumerateAndNameAudioDevices	testautomation_audio.c	/^int audio_enumerateAndNameAudioDevices()$/;"	f
+audio_enumerateAndNameAudioDevicesNegativeTests	testautomation_audio.c	/^int audio_enumerateAndNameAudioDevicesNegativeTests()$/;"	f
+audio_getAudioStatus	testautomation_audio.c	/^int audio_getAudioStatus()$/;"	f
+audio_initOpenCloseQuitAudio	testautomation_audio.c	/^int audio_initOpenCloseQuitAudio()$/;"	f
+audio_initQuitAudio	testautomation_audio.c	/^int audio_initQuitAudio()$/;"	f
+audio_lockUnlockOpenAudioDevice	testautomation_audio.c	/^int audio_lockUnlockOpenAudioDevice()$/;"	f
+audio_openCloseAndGetAudioStatus	testautomation_audio.c	/^int audio_openCloseAndGetAudioStatus()$/;"	f
+audio_openCloseAudioDeviceConnected	testautomation_audio.c	/^int audio_openCloseAudioDeviceConnected()$/;"	f
+audio_printAudioDrivers	testautomation_audio.c	/^int audio_printAudioDrivers()$/;"	f
+audio_printCurrentAudioDriver	testautomation_audio.c	/^int audio_printCurrentAudioDriver()$/;"	f
+audio_quitInitAudioSubSystem	testautomation_audio.c	/^int audio_quitInitAudioSubSystem()$/;"	f
+backColor	testime.c	/^static SDL_Color backColor = {255,255,255,0};$/;"	v	file:
+background	testrendercopyex.c	/^    SDL_Texture *background;$/;"	m	struct:__anon11	file:
+background	testrendertarget.c	/^    SDL_Texture *background;$/;"	m	struct:__anon13	file:
+background	testscale.c	/^    SDL_Texture *background;$/;"	m	struct:__anon12	file:
+bad	testatomic.c	/^static atomicValue bad = 42;$/;"	v	file:
+badsize	testplatform.c	/^badsize(size_t sizeoftype, size_t hardcodetype)$/;"	f	file:
+blendMode	testdraw2.c	/^static SDL_BlendMode blendMode = SDL_BLENDMODE_NONE;$/;"	v	file:
+blendMode	testintersections.c	/^static SDL_BlendMode blendMode = SDL_BLENDMODE_NONE;$/;"	v	file:
+blendMode	testsprite2.c	/^static SDL_BlendMode blendMode = SDL_BLENDMODE_BLEND;$/;"	v	file:
+button_messagebox	testmessage.c	/^button_messagebox(void *eventNumber)$/;"	f	file:
+cache_pad1	testatomic.c	/^    char cache_pad1[SDL_CACHELINE_SIZE-((sizeof(SDL_EventQueueEntry)*MAX_ENTRIES)%SDL_CACHELINE_SIZE)];$/;"	m	struct:__anon6	file:
+cache_pad2	testatomic.c	/^    char cache_pad2[SDL_CACHELINE_SIZE-sizeof(SDL_atomic_t)];$/;"	m	struct:__anon6	file:
+cache_pad3	testatomic.c	/^    char cache_pad3[SDL_CACHELINE_SIZE-sizeof(SDL_atomic_t)];$/;"	m	struct:__anon6	file:
+cache_pad4	testatomic.c	/^    char cache_pad4[SDL_CACHELINE_SIZE-sizeof(SDL_SpinLock)-2*sizeof(SDL_atomic_t)];$/;"	m	struct:__anon6	file:
+callback	testtimer.c	/^callback(Uint32 interval, void *param)$/;"	f	file:
+callback_data	testmultiaudio.c	/^} callback_data;$/;"	t	typeref:struct:__anon4	file:
+cleanup	testfile.c	/^cleanup(void)$/;"	f	file:
+clipboardTest1	testautomation_clipboard.c	/^static const SDLTest_TestCaseReference clipboardTest1 =$/;"	v	file:
+clipboardTest2	testautomation_clipboard.c	/^static const SDLTest_TestCaseReference clipboardTest2 =$/;"	v	file:
+clipboardTest3	testautomation_clipboard.c	/^static const SDLTest_TestCaseReference clipboardTest3 =$/;"	v	file:
+clipboardTest4	testautomation_clipboard.c	/^static const SDLTest_TestCaseReference clipboardTest4 =$/;"	v	file:
+clipboardTestSuite	testautomation_clipboard.c	/^SDLTest_TestSuiteReference clipboardTestSuite = {$/;"	v
+clipboardTests	testautomation_clipboard.c	/^static const SDLTest_TestCaseReference *clipboardTests[] =  {$/;"	v	file:
+clipboard_testClipboardTextFunctions	testautomation_clipboard.c	/^clipboard_testClipboardTextFunctions(void *arg)$/;"	f
+clipboard_testGetClipboardText	testautomation_clipboard.c	/^clipboard_testGetClipboardText(void *arg)$/;"	f
+clipboard_testHasClipboardText	testautomation_clipboard.c	/^clipboard_testHasClipboardText(void *arg)$/;"	f
+clipboard_testSetClipboardText	testautomation_clipboard.c	/^clipboard_testSetClipboardText(void *arg)$/;"	f
+closemutex	testlock.c	/^closemutex(int sig)$/;"	f
+colors	testgesture.c	/^static int colors[7] = {0xFF,0xFF00,0xFF0000,0xFFFF00,0x00FFFF,0xFF00FF,0xFFFFFF};$/;"	v	file:
+context	testgl2.c	/^static SDL_GLContext context;$/;"	v	file:
+context	testgles.c	/^static SDL_GLContext *context = NULL;$/;"	v	file:
+counters	testatomic.c	/^    int counters[NUM_WRITERS];$/;"	m	struct:__anon8	file:
+current_alpha	testdraw2.c	/^static int current_alpha = 255;$/;"	v	file:
+current_alpha	testintersections.c	/^static int current_alpha = 255;$/;"	v	file:
+current_alpha	testsprite2.c	/^static int current_alpha = 0;$/;"	v	file:
+current_color	testdraw2.c	/^static int current_color = 255;$/;"	v	file:
+current_color	testintersections.c	/^static int current_color = 255;$/;"	v	file:
+current_color	testsprite2.c	/^static int current_color = 0;$/;"	v	file:
+current_shader	testshader.c	/^static int      current_shader = 0;$/;"	v	file:
+cursor	testime.c	/^static int cursor = 0;$/;"	v	file:
+cycle_alpha	testdraw2.c	/^static SDL_bool cycle_alpha;$/;"	v	file:
+cycle_alpha	testintersections.c	/^static SDL_bool cycle_alpha;$/;"	v	file:
+cycle_alpha	testsprite2.c	/^static SDL_bool cycle_alpha;$/;"	v	file:
+cycle_color	testdraw2.c	/^static SDL_bool cycle_color;$/;"	v	file:
+cycle_color	testintersections.c	/^static SDL_bool cycle_color;$/;"	v	file:
+cycle_color	testsprite2.c	/^static SDL_bool cycle_color;$/;"	v	file:
+cycle_direction	testdraw2.c	/^static int cycle_direction = 1;$/;"	v	file:
+cycle_direction	testintersections.c	/^static int cycle_direction = 1;$/;"	v	file:
+cycle_direction	testsprite2.c	/^static int cycle_direction = 1;$/;"	v	file:
+depth	testgles.c	/^static int depth = 16;$/;"	v	file:
+dequeue_pos	testatomic.c	/^    SDL_atomic_t dequeue_pos;$/;"	m	struct:__anon6	file:
+dev	testmultiaudio.c	/^    SDL_AudioDeviceID dev;$/;"	m	struct:__anon4	file:
+done	loopwave.c	/^static int done = 0;$/;"	v	file:
+done	testmultiaudio.c	/^    volatile int done;$/;"	m	struct:__anon4	file:
+doterminate	testlock.c	/^static volatile int doterminate = 0;$/;"	v	file:
+dpy	testnativex11.c	/^static Display *dpy;$/;"	v	file:
+drawCircle	testgesture.c	/^void drawCircle(SDL_Surface* screen,float x,float y,float r,unsigned int c)$/;"	f
+drawKnob	testgesture.c	/^void drawKnob(SDL_Surface* screen,Knob k) {$/;"	f
+drawLine	testgesture.c	/^void drawLine(SDL_Surface *screen,float x0,float y0,float x1,float y1,unsigned int col) {$/;"	f
+enqueue_pos	testatomic.c	/^    SDL_atomic_t enqueue_pos;$/;"	m	struct:__anon6	file:
+entries	testatomic.c	/^    SDL_EventQueueEntry entries[MAX_ENTRIES];$/;"	m	struct:__anon6	file:
+event	testatomic.c	/^    SDL_Event event;$/;"	m	struct:__anon5	file:
+eventWrite	testgesture.c	/^static int eventWrite;$/;"	v	file:
+events	testgesture.c	/^static SDL_Event events[EVENT_BUF_SIZE];$/;"	v	file:
+eventsTest1	testautomation_events.c	/^static const SDLTest_TestCaseReference eventsTest1 =$/;"	v	file:
+eventsTest2	testautomation_events.c	/^static const SDLTest_TestCaseReference eventsTest2 =$/;"	v	file:
+eventsTest3	testautomation_events.c	/^static const SDLTest_TestCaseReference eventsTest3 =$/;"	v	file:
+eventsTestSuite	testautomation_events.c	/^SDLTest_TestSuiteReference eventsTestSuite = {$/;"	v
+eventsTests	testautomation_events.c	/^static const SDLTest_TestCaseReference *eventsTests[] =  {$/;"	v	file:
+events_addDelEventWatch	testautomation_events.c	/^events_addDelEventWatch(void *arg)$/;"	f
+events_addDelEventWatchWithUserdata	testautomation_events.c	/^events_addDelEventWatchWithUserdata(void *arg)$/;"	f
+events_pushPumpAndPollUserevent	testautomation_events.c	/^events_pushPumpAndPollUserevent(void *arg)$/;"	f
+factories	testnative.c	/^static NativeWindowFactory *factories[] = {$/;"	v	file:
+factory	testnative.c	/^static NativeWindowFactory *factory = NULL;$/;"	v	file:
+fillerup	loopwave.c	/^fillerup(void *unused, Uint8 * stream, int len)$/;"	f
+fntype	testloadso.c	/^typedef int (*fntype) (const char *);$/;"	t	file:
+font	testime.c	/^static TTF_Font *font;$/;"	v	file:
+frag_shader	testshader.c	/^    GLhandleARB frag_shader;$/;"	m	struct:__anon10	file:
+frag_source	testshader.c	/^    const char *frag_source;$/;"	m	struct:__anon10	file:
+glAttachObjectARB	testshader.c	/^static PFNGLATTACHOBJECTARBPROC glAttachObjectARB;$/;"	v	file:
+glCompileShaderARB	testshader.c	/^static PFNGLCOMPILESHADERARBPROC glCompileShaderARB;$/;"	v	file:
+glCreateProgramObjectARB	testshader.c	/^static PFNGLCREATEPROGRAMOBJECTARBPROC glCreateProgramObjectARB;$/;"	v	file:
+glCreateShaderObjectARB	testshader.c	/^static PFNGLCREATESHADEROBJECTARBPROC glCreateShaderObjectARB;$/;"	v	file:
+glDeleteObjectARB	testshader.c	/^static PFNGLDELETEOBJECTARBPROC glDeleteObjectARB;$/;"	v	file:
+glGetInfoLogARB	testshader.c	/^static PFNGLGETINFOLOGARBPROC glGetInfoLogARB;$/;"	v	file:
+glGetObjectParameterivARB	testshader.c	/^static PFNGLGETOBJECTPARAMETERIVARBPROC glGetObjectParameterivARB;$/;"	v	file:
+glGetUniformLocationARB	testshader.c	/^static PFNGLGETUNIFORMLOCATIONARBPROC glGetUniformLocationARB;$/;"	v	file:
+glLinkProgramARB	testshader.c	/^static PFNGLLINKPROGRAMARBPROC glLinkProgramARB;$/;"	v	file:
+glShaderSourceARB	testshader.c	/^static PFNGLSHADERSOURCEARBPROC glShaderSourceARB;$/;"	v	file:
+glUniform1iARB	testshader.c	/^static PFNGLUNIFORM1IARBPROC glUniform1iARB;$/;"	v	file:
+glUseProgramObjectARB	testshader.c	/^static PFNGLUSEPROGRAMOBJECTARBPROC glUseProgramObjectARB;$/;"	v	file:
+good	testatomic.c	/^static SDL_atomic_t good = { 42 };$/;"	v	file:
+handler	testgesture.c	/^void handler (int sig)$/;"	f
+haptic	testhaptic.c	/^static SDL_Haptic *haptic;$/;"	v	file:
+haptic	testrumble.c	/^static SDL_Haptic *haptic;$/;"	v	file:
+index	testatomic.c	/^    int index;$/;"	m	struct:__anon7	file:
+initScreen	testgesture.c	/^SDL_Surface* initScreen(int width,int height)$/;"	f
+iterations	testsprite2.c	/^static int iterations = -1;$/;"	v	file:
+joy_and_controller	testautomation_main.c	/^const int joy_and_controller = SDL_INIT_JOYSTICK | SDL_INIT_GAMECONTROLLER;$/;"	v
+keyboardTest1	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest1 =$/;"	v	file:
+keyboardTest10	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest10 =$/;"	v	file:
+keyboardTest11	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest11 =$/;"	v	file:
+keyboardTest12	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest12 =$/;"	v	file:
+keyboardTest13	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest13 =$/;"	v	file:
+keyboardTest14	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest14 =$/;"	v	file:
+keyboardTest2	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest2 =$/;"	v	file:
+keyboardTest3	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest3 =$/;"	v	file:
+keyboardTest4	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest4 =$/;"	v	file:
+keyboardTest5	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest5 =$/;"	v	file:
+keyboardTest6	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest6 =$/;"	v	file:
+keyboardTest7	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest7 =$/;"	v	file:
+keyboardTest8	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest8 =$/;"	v	file:
+keyboardTest9	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference keyboardTest9 =$/;"	v	file:
+keyboardTestSuite	testautomation_keyboard.c	/^SDLTest_TestSuiteReference keyboardTestSuite = {$/;"	v
+keyboardTests	testautomation_keyboard.c	/^static const SDLTest_TestCaseReference *keyboardTests[] =  {$/;"	v	file:
+keyboard_getKeyFromName	testautomation_keyboard.c	/^keyboard_getKeyFromName(void *arg)$/;"	f
+keyboard_getKeyFromScancode	testautomation_keyboard.c	/^keyboard_getKeyFromScancode(void *arg)$/;"	f
+keyboard_getKeyName	testautomation_keyboard.c	/^keyboard_getKeyName(void *arg)$/;"	f
+keyboard_getKeyNameNegative	testautomation_keyboard.c	/^keyboard_getKeyNameNegative(void *arg)$/;"	f
+keyboard_getKeyboardFocus	testautomation_keyboard.c	/^keyboard_getKeyboardFocus(void *arg)$/;"	f
+keyboard_getKeyboardState	testautomation_keyboard.c	/^keyboard_getKeyboardState(void *arg)$/;"	f
+keyboard_getScancodeFromKey	testautomation_keyboard.c	/^keyboard_getScancodeFromKey(void *arg)$/;"	f
+keyboard_getScancodeFromName	testautomation_keyboard.c	/^keyboard_getScancodeFromName(void *arg)$/;"	f
+keyboard_getScancodeFromNameNegative	testautomation_keyboard.c	/^keyboard_getScancodeFromNameNegative(void *arg)$/;"	f
+keyboard_getScancodeNameNegative	testautomation_keyboard.c	/^keyboard_getScancodeNameNegative(void *arg)$/;"	f
+keyboard_getSetModState	testautomation_keyboard.c	/^keyboard_getSetModState(void *arg)$/;"	f
+keyboard_setTextInputRect	testautomation_keyboard.c	/^keyboard_setTextInputRect(void *arg)$/;"	f
+keyboard_setTextInputRectNegative	testautomation_keyboard.c	/^keyboard_setTextInputRectNegative(void *arg)$/;"	f
+keyboard_startStopTextInput	testautomation_keyboard.c	/^keyboard_startStopTextInput(void *arg)$/;"	f
+killed	testsem.c	/^killed(int sig)$/;"	f	file:
+killed	testthread.c	/^killed(int sig)$/;"	f	file:
+knob	testgesture.c	/^static Knob knob;$/;"	v	file:
+lineColor	testime.c	/^static SDL_Color lineColor = {0,0,0,0};$/;"	v	file:
+lines	testintersections.c	/^SDL_Rect lines[MAX_LINES];$/;"	v
+lock	testatomic.c	/^    SDL_SpinLock lock;$/;"	m	struct:__anon6	file:
+lock_free	testatomic.c	/^    SDL_bool lock_free;$/;"	m	struct:__anon7	file:
+lock_free	testatomic.c	/^    SDL_bool lock_free;$/;"	m	struct:__anon8	file:
+main	checkkeys.c	/^main(int argc, char *argv[])$/;"	f
+main	loopwave.c	/^main(int argc, char *argv[])$/;"	f
+main	testatomic.c	/^main(int argc, char *argv[])$/;"	f
+main	testaudioinfo.c	/^main(int argc, char **argv)$/;"	f
+main	testautomation.c	/^main(int argc, char *argv[])$/;"	f
+main	testdraw2.c	/^main(int argc, char *argv[])$/;"	f
+main	testdrawchessboard.c	/^main(int argc, char *argv[])$/;"	f
+main	testerror.c	/^main(int argc, char *argv[])$/;"	f
+main	testfile.c	/^main(int argc, char *argv[])$/;"	f
+main	testgamecontroller.c	/^main(int argc, char *argv[])$/;"	f
+main	testgesture.c	/^int main(int argc, char* argv[])$/;"	f
+main	testgl2.c	/^main(int argc, char *argv[])$/;"	f
+main	testgles.c	/^main(int argc, char *argv[])$/;"	f
+main	testhaptic.c	/^main(int argc, char **argv)$/;"	f
+main	testhaptic.c	/^main(int argc, char *argv[])$/;"	f
+main	testiconv.c	/^main(int argc, char *argv[])$/;"	f
+main	testime.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	testintersections.c	/^main(int argc, char *argv[])$/;"	f
+main	testjoystick.c	/^main(int argc, char *argv[])$/;"	f
+main	testkeys.c	/^main(int argc, char *argv[])$/;"	f
+main	testloadso.c	/^main(int argc, char *argv[])$/;"	f
+main	testlock.c	/^main(int argc, char *argv[])$/;"	f
+main	testmessage.c	/^main(int argc, char *argv[])$/;"	f
+main	testmultiaudio.c	/^main(int argc, char **argv)$/;"	f
+main	testnative.c	/^main(int argc, char *argv[])$/;"	f
+main	testoverlay2.c	/^main(int argc, char **argv)$/;"	f
+main	testplatform.c	/^main(int argc, char *argv[])$/;"	f
+main	testpower.c	/^main(int argc, char *argv[])$/;"	f
+main	testrelative.c	/^main(int argc, char *argv[])$/;"	f
+main	testrendercopyex.c	/^main(int argc, char *argv[])$/;"	f
+main	testrendertarget.c	/^main(int argc, char *argv[])$/;"	f
+main	testresample.c	/^main(int argc, char **argv)$/;"	f
+main	testrumble.c	/^main(int argc, char **argv)$/;"	f
+main	testrumble.c	/^main(int argc, char *argv[])$/;"	f
+main	testscale.c	/^main(int argc, char *argv[])$/;"	f
+main	testsem.c	/^main(int argc, char **argv)$/;"	f
+main	testshader.c	/^int main(int argc, char **argv)$/;"	f
+main	testshader.c	/^main(int argc, char *argv[])$/;"	f
+main	testshape.c	/^int main(int argc,char** argv)$/;"	f
+main	testsprite2.c	/^main(int argc, char *argv[])$/;"	f
+main	testspriteminimal.c	/^main(int argc, char *argv[])$/;"	f
+main	teststreaming.c	/^main(int argc, char **argv)$/;"	f
+main	testthread.c	/^main(int argc, char *argv[])$/;"	f
+main	testtimer.c	/^main(int argc, char *argv[])$/;"	f
+main	testver.c	/^main(int argc, char *argv[])$/;"	f
+main	testwm2.c	/^main(int argc, char *argv[])$/;"	f
+main	torturethread.c	/^main(int argc, char *argv[])$/;"	f
+mainTest1	testautomation_main.c	/^static const SDLTest_TestCaseReference mainTest1 =$/;"	v	file:
+mainTest2	testautomation_main.c	/^static const SDLTest_TestCaseReference mainTest2 =$/;"	v	file:
+mainTest3	testautomation_main.c	/^static const SDLTest_TestCaseReference mainTest3 =$/;"	v	file:
+mainTest4	testautomation_main.c	/^static const SDLTest_TestCaseReference mainTest4 =$/;"	v	file:
+mainTestSuite	testautomation_main.c	/^SDLTest_TestSuiteReference mainTestSuite = {$/;"	v
+mainTests	testautomation_main.c	/^static const SDLTest_TestCaseReference *mainTests[] =  {$/;"	v	file:
+main_testImpliedJoystickInit	testautomation_main.c	/^static int main_testImpliedJoystickInit (void *arg)$/;"	f	file:
+main_testImpliedJoystickQuit	testautomation_main.c	/^static int main_testImpliedJoystickQuit (void *arg)$/;"	f	file:
+main_testInitQuitJoystickHaptic	testautomation_main.c	/^static int main_testInitQuitJoystickHaptic (void *arg)$/;"	f	file:
+main_testInitQuitSubSystem	testautomation_main.c	/^static int main_testInitQuitSubSystem (void *arg)$/;"	f	file:
+mainthread	testlock.c	/^static SDL_threadID mainthread;$/;"	v	file:
+markedRect	testime.c	/^static SDL_Rect textRect, markedRect;$/;"	v	file:
+markedText	testime.c	/^static char text[MAX_TEXT_LENGTH], markedText[SDL_TEXTEDITINGEVENT_TEXT_SIZE];$/;"	v	file:
+mode	testshape.c	/^    SDL_WindowShapeMode mode;$/;"	m	struct:LoadedPicture	file:
+mouseTest1	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest1 =$/;"	v	file:
+mouseTest10	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest10 =$/;"	v	file:
+mouseTest2	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest2 =$/;"	v	file:
+mouseTest3	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest3 =$/;"	v	file:
+mouseTest4	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest4 =$/;"	v	file:
+mouseTest5	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest5 =$/;"	v	file:
+mouseTest6	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest6 =$/;"	v	file:
+mouseTest7	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest7 =$/;"	v	file:
+mouseTest8	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest8 =$/;"	v	file:
+mouseTest9	testautomation_mouse.c	/^static const SDLTest_TestCaseReference mouseTest9 =$/;"	v	file:
+mouseTestSuite	testautomation_mouse.c	/^SDLTest_TestSuiteReference mouseTestSuite = {$/;"	v
+mouseTests	testautomation_mouse.c	/^static const SDLTest_TestCaseReference *mouseTests[] =  {$/;"	v	file:
+mouse_createFreeColorCursor	testautomation_mouse.c	/^mouse_createFreeColorCursor(void *arg)$/;"	f
+mouse_createFreeCursor	testautomation_mouse.c	/^mouse_createFreeCursor(void *arg)$/;"	f
+mouse_getCursor	testautomation_mouse.c	/^mouse_getCursor(void *arg)$/;"	f
+mouse_getMouseFocus	testautomation_mouse.c	/^mouse_getMouseFocus(void *arg)$/;"	f
+mouse_getMouseState	testautomation_mouse.c	/^mouse_getMouseState(void *arg)$/;"	f
+mouse_getRelativeMouseState	testautomation_mouse.c	/^mouse_getRelativeMouseState(void *arg)$/;"	f
+mouse_getSetRelativeMouseMode	testautomation_mouse.c	/^mouse_getSetRelativeMouseMode(void *arg)$/;"	f
+mouse_setCursor	testautomation_mouse.c	/^mouse_setCursor(void *arg)$/;"	f
+mouse_showCursor	testautomation_mouse.c	/^mouse_showCursor(void *arg)$/;"	f
+mouse_warpMouseInWindow	testautomation_mouse.c	/^mouse_warpMouseInWindow(void *arg)$/;"	f
+mutex	testatomic.c	/^    SDL_mutex *mutex;$/;"	m	struct:__anon6	file:
+mutex	testlock.c	/^static SDL_mutex *mutex = NULL;$/;"	v	file:
+native_window	testnative.c	/^static void *native_window;$/;"	v	file:
+next_time	testshape.c	/^static Uint32 next_time;$/;"	v	file:
+num_lines	testintersections.c	/^int num_lines = 0;$/;"	v
+num_objects	testdraw2.c	/^static int num_objects;$/;"	v	file:
+num_objects	testintersections.c	/^static int num_objects;$/;"	v	file:
+num_rects	testintersections.c	/^int num_rects = 0;$/;"	v
+num_sprites	testsprite2.c	/^static int num_sprites;$/;"	v	file:
+p	testgesture.c	/^  Point p;$/;"	m	struct:__anon2	file:
+padding	testatomic.c	/^    char padding[SDL_CACHELINE_SIZE-(sizeof(SDL_EventQueue*)+sizeof(int)*NUM_WRITERS+sizeof(int)+sizeof(SDL_bool))%SDL_CACHELINE_SIZE];$/;"	m	struct:__anon8	file:
+padding1	testatomic.c	/^    char padding1[SDL_CACHELINE_SIZE-(sizeof(SDL_EventQueue*)+sizeof(int))%SDL_CACHELINE_SIZE];$/;"	m	struct:__anon7	file:
+padding2	testatomic.c	/^    char padding2[SDL_CACHELINE_SIZE-sizeof(int)-sizeof(SDL_bool)];$/;"	m	struct:__anon7	file:
+perror_exit	testgesture.c	/^void perror_exit (char *error)$/;"	f
+pixelsTest1	testautomation_pixels.c	/^static const SDLTest_TestCaseReference pixelsTest1 =$/;"	v	file:
+pixelsTest2	testautomation_pixels.c	/^static const SDLTest_TestCaseReference pixelsTest2 =$/;"	v	file:
+pixelsTest3	testautomation_pixels.c	/^static const SDLTest_TestCaseReference pixelsTest3 =$/;"	v	file:
+pixelsTest4	testautomation_pixels.c	/^static const SDLTest_TestCaseReference pixelsTest4 =$/;"	v	file:
+pixelsTestSuite	testautomation_pixels.c	/^SDLTest_TestSuiteReference pixelsTestSuite = {$/;"	v
+pixelsTests	testautomation_pixels.c	/^static const SDLTest_TestCaseReference *pixelsTests[] =  {$/;"	v	file:
+pixels_allocFreeFormat	testautomation_pixels.c	/^pixels_allocFreeFormat(void *arg)$/;"	f
+pixels_allocFreePalette	testautomation_pixels.c	/^pixels_allocFreePalette(void *arg)$/;"	f
+pixels_calcGammaRamp	testautomation_pixels.c	/^pixels_calcGammaRamp(void *arg)$/;"	f
+pixels_getPixelFormatName	testautomation_pixels.c	/^pixels_getPixelFormatName(void *arg)$/;"	f
+platformTest1	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest1 =$/;"	v	file:
+platformTest10	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest10 =$/;"	v	file:
+platformTest11	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest11 =$/;"	v	file:
+platformTest2	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest2 =$/;"	v	file:
+platformTest3	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest3 =$/;"	v	file:
+platformTest4	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest4 =$/;"	v	file:
+platformTest5	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest5 =$/;"	v	file:
+platformTest6	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest6 =$/;"	v	file:
+platformTest7	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest7 =$/;"	v	file:
+platformTest8	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest8 =$/;"	v	file:
+platformTest9	testautomation_platform.c	/^static const SDLTest_TestCaseReference platformTest9 =$/;"	v	file:
+platformTestSuite	testautomation_platform.c	/^SDLTest_TestSuiteReference platformTestSuite = {$/;"	v
+platformTests	testautomation_platform.c	/^static const SDLTest_TestCaseReference *platformTests[] =  {$/;"	v	file:
+platform_testDefaultInit	testautomation_platform.c	/^int platform_testDefaultInit(void *arg)$/;"	f
+platform_testEndianessAndSwap	testautomation_platform.c	/^int platform_testEndianessAndSwap(void *arg)$/;"	f
+platform_testGetFunctions	testautomation_platform.c	/^int platform_testGetFunctions (void *arg)$/;"	f
+platform_testGetPowerInfo	testautomation_platform.c	/^int platform_testGetPowerInfo(void *arg)$/;"	f
+platform_testGetSetClearError	testautomation_platform.c	/^int platform_testGetSetClearError(void *arg)$/;"	f
+platform_testGetVersion	testautomation_platform.c	/^int platform_testGetVersion(void *arg)$/;"	f
+platform_testHasFunctions	testautomation_platform.c	/^int platform_testHasFunctions (void *arg)$/;"	f
+platform_testSDLVersion	testautomation_platform.c	/^int platform_testSDLVersion(void *arg)$/;"	f
+platform_testSetErrorEmptyInput	testautomation_platform.c	/^int platform_testSetErrorEmptyInput(void *arg)$/;"	f
+platform_testSetErrorInvalidInput	testautomation_platform.c	/^int platform_testSetErrorInvalidInput(void *arg)$/;"	f
+platform_testTypes	testautomation_platform.c	/^int platform_testTypes(void *arg)$/;"	f
+play_through_once	testmultiaudio.c	/^play_through_once(void *arg, Uint8 * stream, int len)$/;"	f
+poked	loopwave.c	/^poked(int sig)$/;"	f
+positions	testnative.c	/^static SDL_Rect *positions, *velocities;$/;"	v	file:
+positions	testsprite2.c	/^static SDL_Rect *positions;$/;"	v	file:
+positions	testspriteminimal.c	/^static SDL_Rect positions[NUM_SPRITES];$/;"	v	file:
+power_of_two	testshader.c	/^power_of_two(int input)$/;"	f	file:
+print_devices	testaudioinfo.c	/^print_devices(int iscapture)$/;"	f	file:
+print_modifiers	checkkeys.c	/^print_modifiers(char **text, size_t *maxlen)$/;"	f	file:
+print_string	checkkeys.c	/^print_string(char **text, size_t *maxlen, const char *fmt, ...)$/;"	f	file:
+printid	testlock.c	/^printid(void)$/;"	f
+program	testshader.c	/^    GLhandleARB program;$/;"	m	struct:__anon10	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+queue	testatomic.c	/^    SDL_EventQueue *queue;$/;"	m	struct:__anon7	file:
+queue	testatomic.c	/^    SDL_EventQueue *queue;$/;"	m	struct:__anon8	file:
+quit	checkkeys.c	/^quit(int rc)$/;"	f	file:
+quit	loopwave.c	/^quit(int rc)$/;"	f	file:
+quit	testautomation.c	/^quit(int rc)$/;"	f	file:
+quit	testerror.c	/^quit(int rc)$/;"	f	file:
+quit	testgl2.c	/^quit(int rc)$/;"	f	file:
+quit	testgles.c	/^quit(int rc)$/;"	f	file:
+quit	testmessage.c	/^quit(int rc)$/;"	f	file:
+quit	testnative.c	/^quit(int rc)$/;"	f	file:
+quit	testoverlay2.c	/^quit(int rc)$/;"	f	file:
+quit	testrendercopyex.c	/^quit(int rc)$/;"	f	file:
+quit	testrendertarget.c	/^quit(int rc)$/;"	f	file:
+quit	testscale.c	/^quit(int rc)$/;"	f	file:
+quit	testsprite2.c	/^quit(int rc)$/;"	f	file:
+quit	testspriteminimal.c	/^quit(int rc)$/;"	f	file:
+quit	teststreaming.c	/^void quit(int rc)$/;"	f
+quit	testthread.c	/^quit(int rc)$/;"	f	file:
+quit	testwm2.c	/^quit(int rc)$/;"	f	file:
+quit	torturethread.c	/^quit(int rc)$/;"	f	file:
+r	testgesture.c	/^  float ang,r;$/;"	m	struct:__anon2	file:
+readersDone	testatomic.c	/^static SDL_sem *readersDone;$/;"	v	file:
+readersRunning	testatomic.c	/^static SDL_atomic_t readersRunning;$/;"	v	file:
+rect	testrelative.c	/^static SDL_Rect rect;$/;"	v	file:
+rectTest1	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest1 =$/;"	v	file:
+rectTest10	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest10 =$/;"	v	file:
+rectTest11	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest11 =$/;"	v	file:
+rectTest12	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest12 =$/;"	v	file:
+rectTest13	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest13 =$/;"	v	file:
+rectTest14	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest14 =$/;"	v	file:
+rectTest15	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest15 =$/;"	v	file:
+rectTest16	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest16 =$/;"	v	file:
+rectTest17	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest17 =$/;"	v	file:
+rectTest18	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest18 =$/;"	v	file:
+rectTest19	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest19 =$/;"	v	file:
+rectTest2	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest2 =$/;"	v	file:
+rectTest20	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest20 =$/;"	v	file:
+rectTest21	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest21 =$/;"	v	file:
+rectTest22	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest22 =$/;"	v	file:
+rectTest23	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest23 =$/;"	v	file:
+rectTest24	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest24 =$/;"	v	file:
+rectTest25	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest25 =$/;"	v	file:
+rectTest26	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest26 =$/;"	v	file:
+rectTest27	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest27 =$/;"	v	file:
+rectTest28	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest28 =$/;"	v	file:
+rectTest29	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest29 =$/;"	v	file:
+rectTest3	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest3 =$/;"	v	file:
+rectTest4	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest4 =$/;"	v	file:
+rectTest5	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest5 =$/;"	v	file:
+rectTest6	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest6 =$/;"	v	file:
+rectTest7	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest7 =$/;"	v	file:
+rectTest8	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest8 =$/;"	v	file:
+rectTest9	testautomation_rect.c	/^static const SDLTest_TestCaseReference rectTest9 =$/;"	v	file:
+rectTestSuite	testautomation_rect.c	/^SDLTest_TestSuiteReference rectTestSuite = {$/;"	v
+rectTests	testautomation_rect.c	/^static const SDLTest_TestCaseReference *rectTests[] =  {$/;"	v	file:
+rect_testEnclosePoints	testautomation_rect.c	/^int rect_testEnclosePoints(void *arg)$/;"	f
+rect_testEnclosePointsParam	testautomation_rect.c	/^int rect_testEnclosePointsParam(void *arg)$/;"	f
+rect_testEnclosePointsRepeatedInput	testautomation_rect.c	/^int rect_testEnclosePointsRepeatedInput(void *arg)$/;"	f
+rect_testEnclosePointsWithClipping	testautomation_rect.c	/^int rect_testEnclosePointsWithClipping(void *arg)$/;"	f
+rect_testHasIntersectionEmpty	testautomation_rect.c	/^int rect_testHasIntersectionEmpty (void *arg)$/;"	f
+rect_testHasIntersectionInside	testautomation_rect.c	/^int rect_testHasIntersectionInside (void *arg)$/;"	f
+rect_testHasIntersectionOutside	testautomation_rect.c	/^int rect_testHasIntersectionOutside (void *arg)$/;"	f
+rect_testHasIntersectionParam	testautomation_rect.c	/^int rect_testHasIntersectionParam(void *arg)$/;"	f
+rect_testHasIntersectionPartial	testautomation_rect.c	/^int rect_testHasIntersectionPartial (void *arg)$/;"	f
+rect_testHasIntersectionPoint	testautomation_rect.c	/^int rect_testHasIntersectionPoint (void *arg)$/;"	f
+rect_testIntersectRectAndLine	testautomation_rect.c	/^rect_testIntersectRectAndLine (void *arg)$/;"	f
+rect_testIntersectRectAndLineEmpty	testautomation_rect.c	/^rect_testIntersectRectAndLineEmpty (void *arg)$/;"	f
+rect_testIntersectRectAndLineInside	testautomation_rect.c	/^rect_testIntersectRectAndLineInside (void *arg)$/;"	f
+rect_testIntersectRectAndLineOutside	testautomation_rect.c	/^rect_testIntersectRectAndLineOutside (void *arg)$/;"	f
+rect_testIntersectRectAndLineParam	testautomation_rect.c	/^rect_testIntersectRectAndLineParam (void *arg)$/;"	f
+rect_testIntersectRectEmpty	testautomation_rect.c	/^int rect_testIntersectRectEmpty (void *arg)$/;"	f
+rect_testIntersectRectInside	testautomation_rect.c	/^int rect_testIntersectRectInside (void *arg)$/;"	f
+rect_testIntersectRectOutside	testautomation_rect.c	/^int rect_testIntersectRectOutside (void *arg)$/;"	f
+rect_testIntersectRectParam	testautomation_rect.c	/^int rect_testIntersectRectParam(void *arg)$/;"	f
+rect_testIntersectRectPartial	testautomation_rect.c	/^int rect_testIntersectRectPartial (void *arg)$/;"	f
+rect_testIntersectRectPoint	testautomation_rect.c	/^int rect_testIntersectRectPoint (void *arg)$/;"	f
+rect_testRectEmpty	testautomation_rect.c	/^int rect_testRectEmpty(void *arg)$/;"	f
+rect_testRectEmptyParam	testautomation_rect.c	/^int rect_testRectEmptyParam(void *arg)$/;"	f
+rect_testRectEquals	testautomation_rect.c	/^int rect_testRectEquals(void *arg)$/;"	f
+rect_testRectEqualsParam	testautomation_rect.c	/^int rect_testRectEqualsParam(void *arg)$/;"	f
+rect_testUnionRectEmpty	testautomation_rect.c	/^int rect_testUnionRectEmpty(void *arg)$/;"	f
+rect_testUnionRectInside	testautomation_rect.c	/^int rect_testUnionRectInside(void *arg)$/;"	f
+rect_testUnionRectOutside	testautomation_rect.c	/^int rect_testUnionRectOutside(void *arg)$/;"	f
+rect_testUnionRectParam	testautomation_rect.c	/^int rect_testUnionRectParam(void *arg)$/;"	f
+rects	testintersections.c	/^SDL_Rect rects[MAX_RECTS];$/;"	v
+referenceSurface	testautomation_surface.c	/^static SDL_Surface *referenceSurface = NULL;$/;"	v	file:
+render	testshape.c	/^void render(SDL_Renderer *renderer,SDL_Texture *texture,SDL_Rect texture_dimensions)$/;"	f
+renderTest1	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest1 =$/;"	v	file:
+renderTest2	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest2 =$/;"	v	file:
+renderTest3	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest3 =$/;"	v	file:
+renderTest4	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest4 =$/;"	v	file:
+renderTest5	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest5 =$/;"	v	file:
+renderTest6	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest6 =$/;"	v	file:
+renderTest7	testautomation_render.c	/^static const SDLTest_TestCaseReference renderTest7 =$/;"	v	file:
+renderTestSuite	testautomation_render.c	/^SDLTest_TestSuiteReference renderTestSuite = {$/;"	v
+renderTests	testautomation_render.c	/^static const SDLTest_TestCaseReference *renderTests[] =  {$/;"	v	file:
+render_testBlit	testautomation_render.c	/^render_testBlit(void *arg)$/;"	f
+render_testBlitAlpha	testautomation_render.c	/^render_testBlitAlpha (void *arg)$/;"	f
+render_testBlitBlend	testautomation_render.c	/^render_testBlitBlend (void *arg)$/;"	f
+render_testBlitColor	testautomation_render.c	/^render_testBlitColor (void *arg)$/;"	f
+render_testGetNumRenderDrivers	testautomation_render.c	/^render_testGetNumRenderDrivers(void *arg)$/;"	f
+render_testPrimitives	testautomation_render.c	/^int render_testPrimitives (void *arg)$/;"	f
+render_testPrimitivesBlend	testautomation_render.c	/^int render_testPrimitivesBlend (void *arg)$/;"	f
+renderer	testautomation_render.c	/^SDL_Renderer *renderer = NULL;$/;"	v
+renderer	testrendercopyex.c	/^    SDL_Renderer *renderer;$/;"	m	struct:__anon11	file:
+renderer	testrendertarget.c	/^    SDL_Renderer *renderer;$/;"	m	struct:__anon13	file:
+renderer	testscale.c	/^    SDL_Renderer *renderer;$/;"	m	struct:__anon12	file:
+report_power	testpower.c	/^report_power(void)$/;"	f	file:
+runAdder	testatomic.c	/^void runAdder(void)$/;"	f	file:
+rwcount	testatomic.c	/^    SDL_atomic_t rwcount;$/;"	m	struct:__anon6	file:
+rwopsTest1	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest1 =$/;"	v	file:
+rwopsTest10	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest10 =$/;"	v	file:
+rwopsTest2	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest2 =$/;"	v	file:
+rwopsTest3	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest3 =$/;"	v	file:
+rwopsTest4	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest4 =$/;"	v	file:
+rwopsTest5	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest5 =$/;"	v	file:
+rwopsTest6	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest6 =$/;"	v	file:
+rwopsTest7	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest7 =$/;"	v	file:
+rwopsTest8	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest8 =$/;"	v	file:
+rwopsTest9	testautomation_rwops.c	/^static const SDLTest_TestCaseReference rwopsTest9 =$/;"	v	file:
+rwopsTestSuite	testautomation_rwops.c	/^SDLTest_TestSuiteReference rwopsTestSuite = {$/;"	v
+rwopsTests	testautomation_rwops.c	/^static const SDLTest_TestCaseReference *rwopsTests[] =  {$/;"	v	file:
+rwops_error_quit	testfile.c	/^rwops_error_quit(unsigned line, SDL_RWops * rwops)$/;"	f	file:
+rwops_testAllocFree	testautomation_rwops.c	/^rwops_testAllocFree (void)$/;"	f
+rwops_testCompareRWFromMemWithRWFromFile	testautomation_rwops.c	/^rwops_testCompareRWFromMemWithRWFromFile(void)$/;"	f
+rwops_testConstMem	testautomation_rwops.c	/^rwops_testConstMem (void)$/;"	f
+rwops_testFPRead	testautomation_rwops.c	/^rwops_testFPRead(void)$/;"	f
+rwops_testFPWrite	testautomation_rwops.c	/^rwops_testFPWrite(void)$/;"	f
+rwops_testFileRead	testautomation_rwops.c	/^rwops_testFileRead(void)$/;"	f
+rwops_testFileWrite	testautomation_rwops.c	/^rwops_testFileWrite(void)$/;"	f
+rwops_testFileWriteReadEndian	testautomation_rwops.c	/^rwops_testFileWriteReadEndian(void)$/;"	f
+rwops_testMem	testautomation_rwops.c	/^rwops_testMem (void)$/;"	f
+rwops_testParamNegative	testautomation_rwops.c	/^rwops_testParamNegative (void)$/;"	f
+s_ForceQuit	testgamecontroller.c	/^static SDL_bool s_ForceQuit = SDL_FALSE;$/;"	v	file:
+scale_direction	testrendercopyex.c	/^    int scale_direction;$/;"	m	struct:__anon11	file:
+scale_direction	testrendertarget.c	/^    int scale_direction;$/;"	m	struct:__anon13	file:
+scale_direction	testscale.c	/^    int scale_direction;$/;"	m	struct:__anon12	file:
+sdltestTest1	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest1 =$/;"	v	file:
+sdltestTest10	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest10 =$/;"	v	file:
+sdltestTest11	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest11 =$/;"	v	file:
+sdltestTest12	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest12 =$/;"	v	file:
+sdltestTest13	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest13 =$/;"	v	file:
+sdltestTest14	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest14 =$/;"	v	file:
+sdltestTest2	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest2 =$/;"	v	file:
+sdltestTest3	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest3 =$/;"	v	file:
+sdltestTest4	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest4 =$/;"	v	file:
+sdltestTest5	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest5 =$/;"	v	file:
+sdltestTest6	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest6 =$/;"	v	file:
+sdltestTest7	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest7 =$/;"	v	file:
+sdltestTest8	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest8 =$/;"	v	file:
+sdltestTest9	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference sdltestTest9 =$/;"	v	file:
+sdltestTestSuite	testautomation_sdltest.c	/^SDLTest_TestSuiteReference sdltestTestSuite = {$/;"	v
+sdltestTests	testautomation_sdltest.c	/^static const SDLTest_TestCaseReference *sdltestTests[] =  {$/;"	v	file:
+sdltest_getFuzzerInvocationCount	testautomation_sdltest.c	/^sdltest_getFuzzerInvocationCount(void *arg)$/;"	f
+sdltest_randomAsciiString	testautomation_sdltest.c	/^sdltest_randomAsciiString(void *arg)$/;"	f
+sdltest_randomAsciiStringOfSize	testautomation_sdltest.c	/^sdltest_randomAsciiStringOfSize(void *arg)$/;"	f
+sdltest_randomAsciiStringWithMaximumLength	testautomation_sdltest.c	/^sdltest_randomAsciiStringWithMaximumLength(void *arg)$/;"	f
+sdltest_randomBoundaryNumberSint16	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberSint16(void *arg)$/;"	f
+sdltest_randomBoundaryNumberSint32	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberSint32(void *arg)$/;"	f
+sdltest_randomBoundaryNumberSint64	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberSint64(void *arg)$/;"	f
+sdltest_randomBoundaryNumberSint8	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberSint8(void *arg)$/;"	f
+sdltest_randomBoundaryNumberUint16	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberUint16(void *arg)$/;"	f
+sdltest_randomBoundaryNumberUint32	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberUint32(void *arg)$/;"	f
+sdltest_randomBoundaryNumberUint64	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberUint64(void *arg)$/;"	f
+sdltest_randomBoundaryNumberUint8	testautomation_sdltest.c	/^sdltest_randomBoundaryNumberUint8(void *arg)$/;"	f
+sdltest_randomIntegerInRange	testautomation_sdltest.c	/^sdltest_randomIntegerInRange(void *arg)$/;"	f
+sdltest_randomNumber	testautomation_sdltest.c	/^sdltest_randomNumber(void *arg)$/;"	f
+sem	testsem.c	/^static SDL_sem *sem;$/;"	v	file:
+sequence	testatomic.c	/^    SDL_atomic_t sequence;$/;"	m	struct:__anon5	file:
+setpix	testgesture.c	/^void setpix(SDL_Surface *screen, float _x, float _y, unsigned int col)$/;"	f
+shaders	testshader.c	/^static ShaderData shaders[NUM_SHADERS] = {$/;"	v	file:
+shaders_supported	testshader.c	/^static SDL_bool shaders_supported;$/;"	v	file:
+sound	loopwave.c	/^    Uint8 *sound;               \/* Pointer to wave data *\/$/;"	m	struct:__anon3	file:
+sound	testmultiaudio.c	/^static Uint8 *sound = NULL;     \/* Pointer to wave data *\/$/;"	v	file:
+soundlen	loopwave.c	/^    Uint32 soundlen;            \/* Length of wave data *\/$/;"	m	struct:__anon3	file:
+soundlen	testmultiaudio.c	/^static Uint32 soundlen = 0;     \/* Length of wave data *\/$/;"	v	file:
+soundpos	loopwave.c	/^    int soundpos;               \/* Current play position *\/$/;"	m	struct:__anon3	file:
+soundpos	testmultiaudio.c	/^    int soundpos;$/;"	m	struct:__anon4	file:
+spec	loopwave.c	/^    SDL_AudioSpec spec;$/;"	m	struct:__anon3	file:
+spec	testmultiaudio.c	/^static SDL_AudioSpec spec;$/;"	v	file:
+sprite	testrendercopyex.c	/^    SDL_Texture *sprite;$/;"	m	struct:__anon11	file:
+sprite	testrendertarget.c	/^    SDL_Texture *sprite;$/;"	m	struct:__anon13	file:
+sprite	testscale.c	/^    SDL_Texture *sprite;$/;"	m	struct:__anon12	file:
+sprite	testspriteminimal.c	/^static SDL_Texture *sprite;$/;"	v	file:
+sprite_h	testsprite2.c	/^static int sprite_w, sprite_h;$/;"	v	file:
+sprite_h	testspriteminimal.c	/^static int sprite_w, sprite_h;$/;"	v	file:
+sprite_rect	testrendercopyex.c	/^    SDL_Rect sprite_rect;$/;"	m	struct:__anon11	file:
+sprite_rect	testrendertarget.c	/^    SDL_Rect sprite_rect;$/;"	m	struct:__anon13	file:
+sprite_rect	testscale.c	/^    SDL_Rect sprite_rect;$/;"	m	struct:__anon12	file:
+sprite_w	testsprite2.c	/^static int sprite_w, sprite_h;$/;"	v	file:
+sprite_w	testspriteminimal.c	/^static int sprite_w, sprite_h;$/;"	v	file:
+sprites	testsprite2.c	/^static SDL_Texture **sprites;$/;"	v	file:
+state	testautomation.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testdraw2.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testgl2.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testgles.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testime.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testintersections.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testrelative.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testrendercopyex.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testrendertarget.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testscale.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testsprite2.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+state	testwm2.c	/^static SDLTest_CommonState *state;$/;"	v	file:
+stdlibTest1	testautomation_stdlib.c	/^static const SDLTest_TestCaseReference stdlibTest1 =$/;"	v	file:
+stdlibTest2	testautomation_stdlib.c	/^static const SDLTest_TestCaseReference stdlibTest2 =$/;"	v	file:
+stdlibTestSuite	testautomation_stdlib.c	/^SDLTest_TestSuiteReference stdlibTestSuite = {$/;"	v
+stdlibTests	testautomation_stdlib.c	/^static const SDLTest_TestCaseReference *stdlibTests[] =  {$/;"	v	file:
+stdlib_snprintf	testautomation_stdlib.c	/^stdlib_snprintf(void *arg)$/;"	f
+stdlib_strlcpy	testautomation_stdlib.c	/^stdlib_strlcpy(void *arg)$/;"	f
+surface	testshape.c	/^    SDL_Surface *surface;$/;"	m	struct:LoadedPicture	file:
+surfaceTest1	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest1 =$/;"	v	file:
+surfaceTest10	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest10 =$/;"	v	file:
+surfaceTest11	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest11 =$/;"	v	file:
+surfaceTest12	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest12 =$/;"	v	file:
+surfaceTest2	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest2 =$/;"	v	file:
+surfaceTest3	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest3 =$/;"	v	file:
+surfaceTest4	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest4 =$/;"	v	file:
+surfaceTest5	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest5 =$/;"	v	file:
+surfaceTest6	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest6 =$/;"	v	file:
+surfaceTest7	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest7 =$/;"	v	file:
+surfaceTest8	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest8 =$/;"	v	file:
+surfaceTest9	testautomation_surface.c	/^static const SDLTest_TestCaseReference surfaceTest9 =$/;"	v	file:
+surfaceTestSuite	testautomation_surface.c	/^SDLTest_TestSuiteReference surfaceTestSuite = {$/;"	v
+surfaceTests	testautomation_surface.c	/^static const SDLTest_TestCaseReference *surfaceTests[] =  {$/;"	v	file:
+surface_testBlit	testautomation_surface.c	/^surface_testBlit(void *arg)$/;"	f
+surface_testBlitAlphaMod	testautomation_surface.c	/^surface_testBlitAlphaMod(void *arg)$/;"	f
+surface_testBlitBlendAdd	testautomation_surface.c	/^surface_testBlitBlendAdd(void *arg)$/;"	f
+surface_testBlitBlendBlend	testautomation_surface.c	/^surface_testBlitBlendBlend(void *arg)$/;"	f
+surface_testBlitBlendLoop	testautomation_surface.c	/^surface_testBlitBlendLoop(void *arg) {$/;"	f
+surface_testBlitBlendMod	testautomation_surface.c	/^surface_testBlitBlendMod(void *arg)$/;"	f
+surface_testBlitBlendNone	testautomation_surface.c	/^surface_testBlitBlendNone(void *arg)$/;"	f
+surface_testBlitColorMod	testautomation_surface.c	/^surface_testBlitColorMod(void *arg)$/;"	f
+surface_testCompleteSurfaceConversion	testautomation_surface.c	/^surface_testCompleteSurfaceConversion(void *arg)$/;"	f
+surface_testLoadFailure	testautomation_surface.c	/^surface_testLoadFailure(void *arg)$/;"	f
+surface_testSaveLoadBitmap	testautomation_surface.c	/^surface_testSaveLoadBitmap(void *arg)$/;"	f
+surface_testSurfaceConversion	testautomation_surface.c	/^surface_testSurfaceConversion(void *arg)$/;"	f
+syswmTest1	testautomation_syswm.c	/^static const SDLTest_TestCaseReference syswmTest1 =$/;"	v	file:
+syswmTestSuite	testautomation_syswm.c	/^SDLTest_TestSuiteReference syswmTestSuite = {$/;"	v
+syswmTests	testautomation_syswm.c	/^static const SDLTest_TestCaseReference *syswmTests[] =  {$/;"	v	file:
+syswm_getWindowWMInfo	testautomation_syswm.c	/^syswm_getWindowWMInfo(void *arg)$/;"	f
+tag	testnative.h	/^    const char *tag;$/;"	m	struct:__anon14
+terminate	testlock.c	/^terminate(int sig)$/;"	f
+testSuites	testautomation_suites.h	/^SDLTest_TestSuiteReference *testSuites[] =  {$/;"	v
+testSurface	testautomation_surface.c	/^static SDL_Surface *testSurface = NULL;$/;"	v	file:
+test_multi_audio	testmultiaudio.c	/^test_multi_audio(int devcount)$/;"	f	file:
+text	testime.c	/^static char text[MAX_TEXT_LENGTH], markedText[SDL_TEXTEDITINGEVENT_TEXT_SIZE];$/;"	v	file:
+textColor	testime.c	/^static SDL_Color textColor = {0,0,0,0};$/;"	v	file:
+textRect	testime.c	/^static SDL_Rect textRect, markedRect;$/;"	v	file:
+texture	testshape.c	/^    SDL_Texture *texture;$/;"	m	struct:LoadedPicture	file:
+tf	testatomic.c	/^tf(SDL_bool tf)$/;"	f	file:
+threadDone	testatomic.c	/^static SDL_sem *threadDone;$/;"	v	file:
+threads	testlock.c	/^static SDL_Thread *threads[6];$/;"	v	file:
+threadsRunning	testatomic.c	/^static SDL_atomic_t threadsRunning;$/;"	v	file:
+ticks	testtimer.c	/^static int ticks = 0;$/;"	v	file:
+ticktock	testtimer.c	/^ticktock(Uint32 interval, void *param)$/;"	f	file:
+time_for_threads_to_die	torturethread.c	/^static char volatile time_for_threads_to_die[NUMTHREADS];$/;"	v	file:
+time_left	testshape.c	/^Uint32 time_left()$/;"	f
+timerTest1	testautomation_timer.c	/^static const SDLTest_TestCaseReference timerTest1 =$/;"	v	file:
+timerTest2	testautomation_timer.c	/^static const SDLTest_TestCaseReference timerTest2 =$/;"	v	file:
+timerTest3	testautomation_timer.c	/^static const SDLTest_TestCaseReference timerTest3 =$/;"	v	file:
+timerTest4	testautomation_timer.c	/^static const SDLTest_TestCaseReference timerTest4 =$/;"	v	file:
+timerTestSuite	testautomation_timer.c	/^SDLTest_TestSuiteReference timerTestSuite = {$/;"	v
+timerTests	testautomation_timer.c	/^static const SDLTest_TestCaseReference *timerTests[] =  {$/;"	v	file:
+timer_addRemoveTimer	testautomation_timer.c	/^timer_addRemoveTimer(void *arg)$/;"	f
+timer_delayAndGetTicks	testautomation_timer.c	/^timer_delayAndGetTicks(void *arg)$/;"	f
+timer_getPerformanceCounter	testautomation_timer.c	/^timer_getPerformanceCounter(void *arg)$/;"	f
+timer_getPerformanceFrequency	testautomation_timer.c	/^timer_getPerformanceFrequency(void *arg)$/;"	f
+tls	testthread.c	/^static SDL_TLSID tls;$/;"	v	file:
+usage	testime.c	/^void usage()$/;"	f
+utf8_advance	testime.c	/^char *utf8_advance(char *p, size_t distance)$/;"	f
+utf8_length	testime.c	/^size_t utf8_length(unsigned char c)$/;"	f
+utf8_next	testime.c	/^char *utf8_next(char *p)$/;"	f
+velocities	testnative.c	/^static SDL_Rect *positions, *velocities;$/;"	v	file:
+velocities	testsprite2.c	/^static SDL_Rect *velocities;$/;"	v	file:
+velocities	testspriteminimal.c	/^static SDL_Rect velocities[NUM_SPRITES];$/;"	v	file:
+vert_shader	testshader.c	/^    GLhandleARB vert_shader;$/;"	m	struct:__anon10	file:
+vert_source	testshader.c	/^    const char *vert_source;$/;"	m	struct:__anon10	file:
+videoTest1	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest1 =$/;"	v	file:
+videoTest10	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest10 =$/;"	v	file:
+videoTest11	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest11 =$/;"	v	file:
+videoTest12	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest12 =$/;"	v	file:
+videoTest13	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest13 =$/;"	v	file:
+videoTest14	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest14 =$/;"	v	file:
+videoTest15	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest15 =$/;"	v	file:
+videoTest16	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest16 =$/;"	v	file:
+videoTest17	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest17 =$/;"	v	file:
+videoTest18	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest18 =$/;"	v	file:
+videoTest19	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest19 =$/;"	v	file:
+videoTest2	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest2 =$/;"	v	file:
+videoTest20	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest20 =$/;"	v	file:
+videoTest21	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest21 =$/;"	v	file:
+videoTest22	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest22 =$/;"	v	file:
+videoTest23	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest23 =$/;"	v	file:
+videoTest3	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest3 =$/;"	v	file:
+videoTest4	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest4 =$/;"	v	file:
+videoTest5	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest5 =$/;"	v	file:
+videoTest6	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest6 =$/;"	v	file:
+videoTest7	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest7 =$/;"	v	file:
+videoTest8	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest8 =$/;"	v	file:
+videoTest9	testautomation_video.c	/^static const SDLTest_TestCaseReference videoTest9 =$/;"	v	file:
+videoTestSuite	testautomation_video.c	/^SDLTest_TestSuiteReference videoTestSuite = {$/;"	v
+videoTests	testautomation_video.c	/^static const SDLTest_TestCaseReference *videoTests[] =  {$/;"	v	file:
+video_createWindowVariousFlags	testautomation_video.c	/^video_createWindowVariousFlags(void *arg)$/;"	f
+video_createWindowVariousPositions	testautomation_video.c	/^video_createWindowVariousPositions(void *arg)$/;"	f
+video_createWindowVariousSizes	testautomation_video.c	/^video_createWindowVariousSizes(void *arg)$/;"	f
+video_enableDisableScreensaver	testautomation_video.c	/^video_enableDisableScreensaver(void *arg)$/;"	f
+video_getClosestDisplayModeCurrentResolution	testautomation_video.c	/^video_getClosestDisplayModeCurrentResolution(void *arg)$/;"	f
+video_getClosestDisplayModeRandomResolution	testautomation_video.c	/^video_getClosestDisplayModeRandomResolution(void *arg)$/;"	f
+video_getNumDisplayModes	testautomation_video.c	/^video_getNumDisplayModes(void *arg)$/;"	f
+video_getNumDisplayModesNegative	testautomation_video.c	/^video_getNumDisplayModesNegative(void *arg)$/;"	f
+video_getSetWindowData	testautomation_video.c	/^video_getSetWindowData(void *arg)$/;"	f
+video_getSetWindowGrab	testautomation_video.c	/^video_getSetWindowGrab(void *arg)$/;"	f
+video_getSetWindowMaximumSize	testautomation_video.c	/^video_getSetWindowMaximumSize(void *arg)$/;"	f
+video_getSetWindowMinimumSize	testautomation_video.c	/^video_getSetWindowMinimumSize(void *arg)$/;"	f
+video_getSetWindowPosition	testautomation_video.c	/^video_getSetWindowPosition(void *arg)$/;"	f
+video_getSetWindowSize	testautomation_video.c	/^video_getSetWindowSize(void *arg)$/;"	f
+video_getWindowBrightness	testautomation_video.c	/^video_getWindowBrightness(void *arg)$/;"	f
+video_getWindowBrightnessNegative	testautomation_video.c	/^video_getWindowBrightnessNegative(void *arg)$/;"	f
+video_getWindowDisplayMode	testautomation_video.c	/^video_getWindowDisplayMode(void *arg)$/;"	f
+video_getWindowDisplayModeNegative	testautomation_video.c	/^video_getWindowDisplayModeNegative(void *arg)$/;"	f
+video_getWindowFlags	testautomation_video.c	/^video_getWindowFlags(void *arg)$/;"	f
+video_getWindowGammaRamp	testautomation_video.c	/^video_getWindowGammaRamp(void *arg)$/;"	f
+video_getWindowGammaRampNegative	testautomation_video.c	/^video_getWindowGammaRampNegative(void *arg)$/;"	f
+video_getWindowId	testautomation_video.c	/^video_getWindowId(void *arg)$/;"	f
+video_getWindowPixelFormat	testautomation_video.c	/^video_getWindowPixelFormat(void *arg)$/;"	f
+waits	testatomic.c	/^    int waits;$/;"	m	struct:__anon7	file:
+waits	testatomic.c	/^    int waits;$/;"	m	struct:__anon8	file:
+watcher	testatomic.c	/^    SDL_atomic_t watcher;$/;"	m	struct:__anon6	file:
+wave	loopwave.c	/^} wave;$/;"	v	typeref:struct:__anon3
+widelen	testiconv.c	/^widelen(char *data)$/;"	f	file:
+window	testautomation_render.c	/^SDL_Window *window = NULL;$/;"	v
+window	testgesture.c	/^static SDL_Window *window;$/;"	v	file:
+window	testrendercopyex.c	/^    SDL_Window *window;$/;"	m	struct:__anon11	file:
+window	testrendertarget.c	/^    SDL_Window *window;$/;"	m	struct:__anon13	file:
+window	testscale.c	/^    SDL_Window *window;$/;"	m	struct:__anon12	file:
+writersDone	testatomic.c	/^static SDL_sem *writersDone;$/;"	v	file:
+writersRunning	testatomic.c	/^static SDL_atomic_t writersRunning;$/;"	v	file:
+x	testgesture.c	/^  float x,y;$/;"	m	struct:__anon1	file:
+y	testgesture.c	/^  float x,y;$/;"	m	struct:__anon1	file:
