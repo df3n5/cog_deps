@@ -26,3 +26,4 @@ Libraries for ubuntu32.
  - glew (glew-1.10.0.tar.gz md5sum: 2f09e5e6cb1b9f3611bcac79bc9c2d5d)
  - freetype
  - libpng
+ - zlib (zlib-1.2.8.tar.gz for libpng md5sum: 44d667c142d7cda120332623eab69f40)
