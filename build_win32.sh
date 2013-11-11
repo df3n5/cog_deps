@@ -33,16 +33,18 @@ build_glew () {
 }
 
 build_luajit () {
-    pushd src/luajit-2.0
-    make
-    make install PREFIX=$dest_dir
+    pushd src/win32/luajit-2.0
+	mingw32-make clean
+	#mingw32-make
+    #make
+    #make install PREFIX=$dest_dir
     popd
 }
 
 build_openal () {
     pushd src/openal-soft
     pushd build
-    cmake -DCMAKE_INSTALL_PREFIX:PATH= ../
+    cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
     make install DESTDIR=$dest_dir
     popd
@@ -57,7 +59,7 @@ build_zlib () {
 }
 
 build_lpng () {
-    pushd src/lpng
+    pushd src/win32/lpng
 	export LD_LIBRARY_PATH=$dest_dir/lib
 	export C_INCLUDE_PATH=$dest_dir/include
 	make clean
@@ -80,8 +82,8 @@ build_sdl () {
 #build_freealut
 #build_freetype2
 #build_glew
-#build_luajit
-#build_openal
-#build_zlib
-build_lpng
+build_luajit
+#build_openal # DONE
+#build_zlib # DONE
+#build_lpng # DONE
 #build_sdl
