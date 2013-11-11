@@ -1,21 +1,12 @@
-[submodule "src/SDL"]
-	path = src/SDL
-	url = https://github.com/eddieringle/SDL.git
 [submodule "src/freealut"]
 	path = src/freealut
 	url = https://github.com/vancegroup/freealut.git
-[submodule "src/OpenAL"]
-	path = src/OpenAL
-	url = git://repo.or.cz/openal-soft.git
 [submodule "src/glew"]
 	path = src/glew
 	url = https://github.com/nigels-com/glew.git
 [submodule "src/freetype2"]
 	path = src/freetype2
 	url = git://git.sv.nongnu.org/freetype/freetype2.git
-[submodule "src/libpng"]
-	path = src/libpng
-	url = git://git.code.sf.net/p/libpng/code
 [submodule "src/SDL2"]
 	path = src/SDL2
 	url = https://github.com/zielmicha/SDL2.git

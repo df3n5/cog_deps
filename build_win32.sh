@@ -9,10 +9,16 @@ popd
 
 build_freealut () {
     pushd src/freealut
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
+	mkdir build
+	pushd build
+	export CMAKE_LIBRARY_PATH="${CMAKE_LIBRARY_PATH}:$dest_dir/lib"
+	export CMAKE_INCLUDE_PATH="${CMAKE_INCLUDE_PATH}:$dest_dir/include/AL"
+	export C_INCLUDE_PATH="${C_INCLUDE_PATH}:$dest_dir/include"
+	export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$dest_dir/lib"
+	cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
-    make install
+    make install DESTDIR=$dest_dir
+	popd
     popd
 }
 
@@ -26,8 +32,7 @@ build_freetype2 () {
 }
 
 build_glew () {
-    pushd src/glew
-    sed -i 's|lib64|lib|' config/Makefile.linux
+    pushd src/win32/glew-1.10.0
     make GLEW_DEST=$dest_dir install.all
     popd
 }
@@ -35,9 +40,11 @@ build_glew () {
 build_luajit () {
     pushd src/win32/luajit-2.0
 	mingw32-make clean
-	#mingw32-make
-    #make
-    #make install PREFIX=$dest_dir
+	mingw32-make
+	cp src/lua51.dll $dest_dir/bin
+	cp src/luajit.exe $dest_dir/bin
+	mkdir -p $dest_dir/bin/lua/jit
+	cp -rf src/jit/* $dest_dir/bin/lua/jit
     popd
 }
 
@@ -79,10 +86,10 @@ build_sdl () {
 }
 
 
-#build_freealut
+build_freealut
 #build_freetype2
-#build_glew
-build_luajit
+#build_glew # DONE
+#build_luajit # DONE
 #build_openal # DONE
 #build_zlib # DONE
 #build_lpng # DONE
