@@ -2,7 +2,7 @@
 
 #Create directories
 PLATFORM="win32"
-mkdir -p $PLATFORM/{include,lib}
+mkdir -p $PLATFORM/{include,lib,bin,share}
 pushd $PLATFORM
 dest_dir=`pwd`
 popd
@@ -24,10 +24,16 @@ build_freealut () {
 
 build_freetype2 () {
     pushd src/freetype2
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
+	mkdir build
+	pushd build
+	export CMAKE_LIBRARY_PATH="${CMAKE_LIBRARY_PATH}:$dest_dir/lib"
+	export CMAKE_INCLUDE_PATH="${CMAKE_INCLUDE_PATH}:$dest_dir/include/AL"
+	export C_INCLUDE_PATH="${C_INCLUDE_PATH}:$dest_dir/include"
+	export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$dest_dir/lib"
+	cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
-    make install
+    make install DESTDIR=$dest_dir
+	popd
     popd
 }
 
@@ -76,21 +82,26 @@ build_lpng () {
 }
 
 build_sdl () {
-    pushd src/SDL2
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
-    make extensions
-    make
-    make install
-    popd
+    #TODO: Fix this stuff
+    #pushd src/SDL2
+    #./configure --prefix=$dest_dir
+    #make
+    #make install
+    #popd
+	pushd src/win32/SDL2-2.0.1
+	cp -rf bin/* $dest_dir/bin
+	cp -rf include/* $dest_dir/include
+	cp -rf lib/* $dest_dir/lib
+	cp -rf share/* $dest_dir/share
+	popd
 }
 
 
-build_freealut
-#build_freetype2
+#build_freealut # DONE
+#build_freetype2 # DONE
 #build_glew # DONE
 #build_luajit # DONE
 #build_openal # DONE
 #build_zlib # DONE
 #build_lpng # DONE
-#build_sdl
+build_sdl # DONE

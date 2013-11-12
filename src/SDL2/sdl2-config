@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/home/jmf/projects/gamedev/cog_deps/arch32
+prefix=/c/code/cog_deps/win32
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib
@@ -42,14 +42,14 @@ while test $# -gt 0; do
       echo 2.0.0
       ;;
     --cflags)
-      echo -I${prefix}/include/SDL2   -D_REENTRANT
+      echo -I${prefix}/include/SDL2  -Dmain=SDL_main
       ;;
     --libs)
-      echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -lSDL2  -lpthread
+      echo -L${exec_prefix}/lib  -lmingw32 -lSDL2main -lSDL2  -mwindows
       ;;
     --static-libs)
 #    --libs|--static-libs)
-      echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -lSDL2  -lpthread  -lm -ldl -lpthread -lrt
+      echo -L${exec_prefix}/lib  -lmingw32 -lSDL2main -lSDL2  -mwindows  -lm -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -XCClinker -static-libgcc
       ;;
     *)
       echo "${usage}" 1>&2
