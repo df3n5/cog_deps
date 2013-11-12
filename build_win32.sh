@@ -2,47 +2,62 @@
 
 #Create directories
 PLATFORM="win32"
-mkdir -p $PLATFORM/{include,lib}
+mkdir -p $PLATFORM/{include,lib,bin,share}
 pushd $PLATFORM
 dest_dir=`pwd`
 popd
 
 build_freealut () {
     pushd src/freealut
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
+	mkdir build
+	pushd build
+	export CMAKE_LIBRARY_PATH="${CMAKE_LIBRARY_PATH}:$dest_dir/lib"
+	export CMAKE_INCLUDE_PATH="${CMAKE_INCLUDE_PATH}:$dest_dir/include/AL"
+	export C_INCLUDE_PATH="${C_INCLUDE_PATH}:$dest_dir/include"
+	export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$dest_dir/lib"
+	cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
-    make install
+    make install DESTDIR=$dest_dir
+	popd
     popd
 }
 
 build_freetype2 () {
     pushd src/freetype2
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
+	mkdir build
+	pushd build
+	export CMAKE_LIBRARY_PATH="${CMAKE_LIBRARY_PATH}:$dest_dir/lib"
+	export CMAKE_INCLUDE_PATH="${CMAKE_INCLUDE_PATH}:$dest_dir/include/AL"
+	export C_INCLUDE_PATH="${C_INCLUDE_PATH}:$dest_dir/include"
+	export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$dest_dir/lib"
+	cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
-    make install
+    make install DESTDIR=$dest_dir
+	popd
     popd
 }
 
 build_glew () {
-    pushd src/glew
-    sed -i 's|lib64|lib|' config/Makefile.linux
+    pushd src/win32/glew-1.10.0
     make GLEW_DEST=$dest_dir install.all
     popd
 }
 
 build_luajit () {
-    pushd src/luajit-2.0
-    make
-    make install PREFIX=$dest_dir
+    pushd src/win32/luajit-2.0
+	mingw32-make clean
+	mingw32-make
+	cp src/lua51.dll $dest_dir/bin
+	cp src/luajit.exe $dest_dir/bin
+	mkdir -p $dest_dir/bin/lua/jit
+	cp -rf src/jit/* $dest_dir/bin/lua/jit
     popd
 }
 
 build_openal () {
     pushd src/openal-soft
     pushd build
-    cmake -DCMAKE_INSTALL_PREFIX:PATH= ../
+    cmake -G"MSYS Makefiles" -DCMAKE_INSTALL_PREFIX:PATH= ../
     make
     make install DESTDIR=$dest_dir
     popd
@@ -57,7 +72,7 @@ build_zlib () {
 }
 
 build_lpng () {
-    pushd src/lpng
+    pushd src/win32/lpng
 	export LD_LIBRARY_PATH=$dest_dir/lib
 	export C_INCLUDE_PATH=$dest_dir/include
 	make clean
@@ -67,21 +82,26 @@ build_lpng () {
 }
 
 build_sdl () {
-    pushd src/SDL2
-    ./autogen.sh
-    ./configure --prefix=$dest_dir
-    make extensions
-    make
-    make install
-    popd
+    #TODO: Fix this stuff
+    #pushd src/SDL2
+    #./configure --prefix=$dest_dir
+    #make
+    #make install
+    #popd
+	pushd src/win32/SDL2-2.0.1
+	cp -rf bin/* $dest_dir/bin
+	cp -rf include/* $dest_dir/include
+	cp -rf lib/* $dest_dir/lib
+	cp -rf share/* $dest_dir/share
+	popd
 }
 
 
-#build_freealut
-#build_freetype2
-#build_glew
-#build_luajit
-#build_openal
-#build_zlib
-build_lpng
-#build_sdl
+#build_freealut # DONE
+#build_freetype2 # DONE
+#build_glew # DONE
+#build_luajit # DONE
+#build_openal # DONE
+#build_zlib # DONE
+#build_lpng # DONE
+build_sdl # DONE
