@@ -49,6 +49,12 @@ build_openal () {
     popd
 }
 
+build_zlib () {
+    pushd src/zlib
+    ./configure --prefix=$dest_dir
+	make -f win32/Makefile.gcc BINARY_PATH=$dest_dir/bin INCLUDE_PATH=$dest_dir/include LIBRARY_PATH=$dest_dir/lib install
+    popd
+}
 
 build_png () {
     pushd src/png
@@ -75,5 +81,6 @@ build_freetype2
 build_glew
 build_luajit
 build_openal
+#build_zlib
 build_png
 build_sdl
