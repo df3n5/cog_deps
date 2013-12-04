@@ -10,9 +10,6 @@
 [submodule "src/SDL2"]
 	path = src/SDL2
 	url = https://github.com/zielmicha/SDL2.git
-[submodule "src/png"]
-	path = src/png
-	url = git://git.code.sf.net/p/libpng/code
 [submodule "src/openal-soft"]
 	path = src/openal-soft
 	url = git://repo.or.cz/openal-soft.git
